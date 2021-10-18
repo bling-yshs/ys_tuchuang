@@ -1,0 +1,197 @@
+[16:18:08] [org.jackhuang.hmcl.Launcher.main/INFO] *** HMCL 3.4.208 ***
+[16:18:08] [org.jackhuang.hmcl.Launcher.main/INFO] Operating System: Windows 10 10.0
+[16:18:08] [org.jackhuang.hmcl.Launcher.main/INFO] Java Version: 1.8.0_291, Oracle Corporation
+[16:18:08] [org.jackhuang.hmcl.Launcher.main/INFO] Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+[16:18:08] [org.jackhuang.hmcl.Launcher.main/INFO] Java Home: C:\Program Files\Java\jre1.8.0_291
+[16:18:08] [org.jackhuang.hmcl.Launcher.main/INFO] Current Directory: C:\Users\alecq\Desktop
+[16:18:08] [org.jackhuang.hmcl.Launcher.main/INFO] HMCL Directory: C:\Users\alecq\AppData\Roaming\.hmcl
+[16:18:08] [org.jackhuang.hmcl.Launcher.main/INFO] Memory: 3509MB
+[16:18:08] [org.jackhuang.hmcl.Launcher.lambda$main$2/INFO] Metaspace: 11MB
+[16:18:09] [org.jackhuang.hmcl.setting.ConfigHolder.init/INFO] Config location: C:\Users\alecq\Desktop\hmcl.json
+[16:18:09] [org.jackhuang.hmcl.task.AsyncTaskExecutor.lambda$executeNormalTask$19/FINE] Executing task: org.jackhuang.hmcl.game.GameRepository.refreshVersionsAsync(GameRepository.java:88)
+[16:18:09] [org.jackhuang.hmcl.task.AsyncTaskExecutor.lambda$executeNormalTask$19/FINE] Executing task: org.jackhuang.hmcl.game.GameRepository.refreshVersionsAsync(GameRepository.java:88)
+[16:18:09] [org.jackhuang.hmcl.event.EventBus.fireEvent/INFO] RefreshingVersionsEvent [source=HMCLGameRepository [versions=null, baseDirectory=.minecraft]] gets fired
+[16:18:09] [org.jackhuang.hmcl.event.EventBus.fireEvent/INFO] RefreshingVersionsEvent [source=HMCLGameRepository [versions=null, baseDirectory=.minecraft]] gets fired
+[16:18:09] [org.jackhuang.hmcl.ui.Controllers.initialize/INFO] Start initializing application
+[16:18:09] [org.jackhuang.hmcl.event.EventBus.fireEvent/INFO] LoadedOneVersionEvent [source=HMCLGameRepository [versions=null, baseDirectory=.minecraft], version=Version [id=1.16.4]] gets fired
+[16:18:09] [org.jackhuang.hmcl.event.EventBus.fireEvent/INFO] LoadedOneVersionEvent [source=HMCLGameRepository [versions=null, baseDirectory=.minecraft], version=Version [id=1.16.4]] gets fired
+[16:18:09] [org.jackhuang.hmcl.event.EventBus.fireEvent/INFO] LoadedOneVersionEvent [source=HMCLGameRepository [versions=null, baseDirectory=.minecraft], version=Version [id=1.16.3]] gets fired
+[16:18:09] [org.jackhuang.hmcl.event.EventBus.fireEvent/INFO] LoadedOneVersionEvent [source=HMCLGameRepository [versions=null, baseDirectory=.minecraft], version=Version [id=1.16.3]] gets fired
+[16:18:09] [org.jackhuang.hmcl.event.EventBus.fireEvent/INFO] LoadedOneVersionEvent [source=HMCLGameRepository [versions=null, baseDirectory=.minecraft], version=Version [id=1.12.2]] gets fired
+[16:18:09] [org.jackhuang.hmcl.event.EventBus.fireEvent/INFO] LoadedOneVersionEvent [source=HMCLGameRepository [versions=null, baseDirectory=.minecraft], version=Version [id=1.12.2]] gets fired
+[16:18:09] [org.jackhuang.hmcl.event.EventBus.fireEvent/INFO] RefreshedVersionsEvent [source=HMCLGameRepository [versions=[1.12.2, 1.16.3, 1.16.4], baseDirectory=.minecraft]] gets fired
+[16:18:09] [org.jackhuang.hmcl.event.EventBus.fireEvent/INFO] RefreshedVersionsEvent [source=HMCLGameRepository [versions=[1.12.2, 1.16.3, 1.16.4], baseDirectory=.minecraft]] gets fired
+[16:18:09] [org.jackhuang.hmcl.task.AsyncTaskExecutor.lambda$executeNormalTask$29/FINER] Task finished: org.jackhuang.hmcl.game.GameRepository.refreshVersionsAsync(GameRepository.java:88)
+[16:18:09] [org.jackhuang.hmcl.task.AsyncTaskExecutor.lambda$executeNormalTask$29/FINER] Task finished: org.jackhuang.hmcl.game.GameRepository.refreshVersionsAsync(GameRepository.java:88)
+[16:18:09] [org.jackhuang.hmcl.Main.fixLetsEncrypt/INFO] Added Lets Encrypt root certificates as additional trust
+[16:18:09] [org.jackhuang.hmcl.task.AsyncTaskExecutor.lambda$executeNormalTask$19/FINE] Executing task: org.jackhuang.hmcl.ui.Controllers.initialize(Controllers.java:175)
+[16:18:09] [org.jackhuang.hmcl.task.AsyncTaskExecutor.lambda$executeNormalTask$19/FINE] Executing task: org.jackhuang.hmcl.ui.Controllers.initialize(Controllers.java:175)
+[16:18:09] [org.jackhuang.hmcl.util.platform.JavaVersion.lambda$lookupJavas$2/FINER] Looking for Java:C:\Program Files (x86)\Common Files\Oracle\Java\javapath_target_117798687\java.exe
+[16:18:09] [org.jackhuang.hmcl.util.platform.JavaVersion.lambda$lookupJavas$2/FINE] Found Java (1.8.0_291) C:\Program Files (x86)\Common Files\Oracle\Java\javapath_target_117798687\java.exe
+[16:18:09] [org.jackhuang.hmcl.util.platform.JavaVersion.initialize/FINE] Finished Java installation lookup, found 2
+[16:18:09] [org.jackhuang.hmcl.task.AsyncTaskExecutor.lambda$executeNormalTask$29/FINER] Task finished: org.jackhuang.hmcl.ui.Controllers.initialize(Controllers.java:175)
+[16:18:09] [org.jackhuang.hmcl.task.AsyncTaskExecutor.lambda$executeNormalTask$29/FINER] Task finished: org.jackhuang.hmcl.ui.Controllers.initialize(Controllers.java:175)
+[16:18:10] [org.jackhuang.hmcl.upgrade.IntegrityChecker.isSelfVerified/INFO] Successfully verified current JAR
+[16:18:11] [org.jackhuang.hmcl.upgrade.UpdateChecker.lambda$null$2/INFO] Latest version (DEVELOPMENT) is [3.4.208 from https://ci.huangyuhui.net/job/HMCL/208/artifact/HMCL/build/libs/HMCL-3.4.208.pack.xz]
+[16:18:12] [org.jackhuang.hmcl.task.AsyncTaskExecutor.lambda$executeNormalTask$19/FINE] Executing task: org.jackhuang.hmcl.ui.versions.VersionSettingsPage.initialize(VersionSettingsPage.java:547)
+[16:18:12] [org.jackhuang.hmcl.task.AsyncTaskExecutor.lambda$executeNormalTask$19/FINE] Executing task: org.jackhuang.hmcl.ui.versions.VersionSettingsPage.initialize(VersionSettingsPage.java:547)
+[16:18:12] [org.jackhuang.hmcl.task.AsyncTaskExecutor.lambda$executeNormalTask$29/FINER] Task finished: org.jackhuang.hmcl.ui.versions.VersionSettingsPage.initialize(VersionSettingsPage.java:547)
+[16:18:12] [org.jackhuang.hmcl.ui.construct.Navigator.navigate/INFO] Navigate to VersionPage@216e2b29[styleClass=gray-background]
+[16:18:12] [org.jackhuang.hmcl.task.AsyncTaskExecutor.lambda$executeNormalTask$19/FINE] Executing task: org.jackhuang.hmcl.ui.versions.VersionSettingsPage.initJavaSubtitle(VersionSettingsPage.java:753)
+[16:18:12] [org.jackhuang.hmcl.task.AsyncTaskExecutor.lambda$executeNormalTask$19/FINE] Executing task: org.jackhuang.hmcl.ui.versions.VersionSettingsPage.initJavaSubtitle(VersionSettingsPage.java:745)
+[16:18:13] [org.jackhuang.hmcl.task.AsyncTaskExecutor.lambda$executeNormalTask$19/FINE] Executing task: org.jackhuang.hmcl.ui.versions.VersionSettingsPage.initializeSelectedJava(VersionSettingsPage.java:723)
+[16:18:13] [org.jackhuang.hmcl.task.AsyncTaskExecutor.lambda$executeNormalTask$29/FINER] Task finished: org.jackhuang.hmcl.ui.versions.VersionSettingsPage.initialize(VersionSettingsPage.java:547)
+[16:18:13] [org.jackhuang.hmcl.task.AsyncTaskExecutor.lambda$executeNormalTask$19/FINE] Executing task: org.jackhuang.hmcl.task.Task$UniCompose$$Lambda$882/1753759631@42e63b14
+[16:18:13] [org.jackhuang.hmcl.task.AsyncTaskExecutor.lambda$executeNormalTask$19/FINE] Executing task: org.jackhuang.hmcl.setting.VersionSetting.getJavaVersion(VersionSetting.java:596)
+[16:18:13] [org.jackhuang.hmcl.task.AsyncTaskExecutor.lambda$executeNormalTask$19/FINE] Executing task: org.jackhuang.hmcl.ui.versions.VersionSettingsPage.initializeSelectedJava(VersionSettingsPage.java:723)
+[16:18:13] [org.jackhuang.hmcl.task.AsyncTaskExecutor.lambda$executeNormalTask$19/FINE] Executing task: org.jackhuang.hmcl.ui.versions.VersionSettingsPage.initJavaSubtitle(VersionSettingsPage.java:753)
+[16:18:13] [org.jackhuang.hmcl.task.AsyncTaskExecutor.lambda$executeNormalTask$19/FINE] Executing task: org.jackhuang.hmcl.task.Task$UniCompose$$Lambda$882/1753759631@3c0a171
+[16:18:13] [org.jackhuang.hmcl.task.AsyncTaskExecutor.lambda$executeNormalTask$19/FINE] Executing task: org.jackhuang.hmcl.ui.versions.VersionSettingsPage.initJavaSubtitle(VersionSettingsPage.java:745)
+[16:18:13] [org.jackhuang.hmcl.task.AsyncTaskExecutor.lambda$executeNormalTask$19/FINE] Executing task: org.jackhuang.hmcl.setting.VersionSetting.getJavaVersion(VersionSetting.java:596)
+[16:18:13] [org.jackhuang.hmcl.task.AsyncTaskExecutor.lambda$executeNormalTask$19/FINE] Executing task: org.jackhuang.hmcl.task.Task$UniCompose$$Lambda$882/1753759631@6ce412ec
+[16:18:13] [org.jackhuang.hmcl.task.AsyncTaskExecutor.lambda$executeNormalTask$19/FINE] Executing task: org.jackhuang.hmcl.setting.VersionSetting.getJavaVersion(VersionSetting.java:596)
+[16:18:13] [org.jackhuang.hmcl.task.AsyncTaskExecutor.lambda$executeNormalTask$29/FINER] Task finished: org.jackhuang.hmcl.setting.VersionSetting.getJavaVersion(VersionSetting.java:596)
+[16:18:13] [org.jackhuang.hmcl.task.AsyncTaskExecutor.lambda$executeNormalTask$19/FINE] Executing task: org.jackhuang.hmcl.util.Lang.lambda$wrap$2(Lang.java:270)
+[16:18:13] [org.jackhuang.hmcl.task.AsyncTaskExecutor.lambda$executeNormalTask$29/FINER] Task finished: org.jackhuang.hmcl.util.Lang.lambda$wrap$2(Lang.java:270)
+[16:18:13] [org.jackhuang.hmcl.task.AsyncTaskExecutor.lambda$executeNormalTask$29/FINER] Task finished: org.jackhuang.hmcl.task.Task$UniCompose$$Lambda$882/1753759631@42e63b14
+[16:18:13] [org.jackhuang.hmcl.task.AsyncTaskExecutor.lambda$executeNormalTask$19/FINE] Executing task: org.jackhuang.hmcl.task.Task$UniCompose$$Lambda$882/1753759631@25da5e19
+[16:18:13] [org.jackhuang.hmcl.task.AsyncTaskExecutor.lambda$executeNormalTask$29/FINER] Task finished: org.jackhuang.hmcl.setting.VersionSetting.getJavaVersion(VersionSetting.java:596)
+[16:18:13] [org.jackhuang.hmcl.task.AsyncTaskExecutor.lambda$executeNormalTask$19/FINE] Executing task: org.jackhuang.hmcl.setting.VersionSetting.getJavaVersion(VersionSetting.java:596)
+[16:18:13] [org.jackhuang.hmcl.task.AsyncTaskExecutor.lambda$executeNormalTask$19/FINE] Executing task: org.jackhuang.hmcl.util.Lang.lambda$wrap$2(Lang.java:270)
+[16:18:13] [org.jackhuang.hmcl.task.AsyncTaskExecutor.lambda$executeNormalTask$29/FINER] Task finished: org.jackhuang.hmcl.util.Lang.lambda$wrap$2(Lang.java:270)
+[16:18:13] [org.jackhuang.hmcl.task.AsyncTaskExecutor.lambda$executeNormalTask$29/FINER] Task finished: org.jackhuang.hmcl.task.Task$UniCompose$$Lambda$882/1753759631@3c0a171
+[16:18:13] [org.jackhuang.hmcl.task.AsyncTaskExecutor.lambda$executeNormalTask$29/FINER] Task finished: org.jackhuang.hmcl.setting.VersionSetting.getJavaVersion(VersionSetting.java:596)
+[16:18:13] [org.jackhuang.hmcl.task.AsyncTaskExecutor.lambda$executeNormalTask$19/FINE] Executing task: org.jackhuang.hmcl.util.Lang.lambda$wrap$2(Lang.java:270)
+[16:18:13] [org.jackhuang.hmcl.task.AsyncTaskExecutor.lambda$executeNormalTask$29/FINER] Task finished: org.jackhuang.hmcl.ui.versions.VersionSettingsPage.initializeSelectedJava(VersionSettingsPage.java:723)
+[16:18:13] [org.jackhuang.hmcl.task.AsyncTaskExecutor.lambda$executeNormalTask$29/FINER] Task finished: org.jackhuang.hmcl.setting.VersionSetting.getJavaVersion(VersionSetting.java:596)
+[16:18:13] [org.jackhuang.hmcl.task.AsyncTaskExecutor.lambda$executeNormalTask$29/FINER] Task finished: org.jackhuang.hmcl.ui.versions.VersionSettingsPage.initializeSelectedJava(VersionSettingsPage.java:723)
+[16:18:13] [org.jackhuang.hmcl.task.AsyncTaskExecutor.lambda$executeNormalTask$29/FINER] Task finished: org.jackhuang.hmcl.util.Lang.lambda$wrap$2(Lang.java:270)
+[16:18:13] [org.jackhuang.hmcl.task.AsyncTaskExecutor.lambda$executeNormalTask$29/FINER] Task finished: org.jackhuang.hmcl.task.Task$UniCompose$$Lambda$882/1753759631@6ce412ec
+[16:18:13] [org.jackhuang.hmcl.task.AsyncTaskExecutor.lambda$executeNormalTask$19/FINE] Executing task: org.jackhuang.hmcl.util.Lang.lambda$wrap$2(Lang.java:270)
+[16:18:13] [org.jackhuang.hmcl.task.AsyncTaskExecutor.lambda$executeNormalTask$29/FINER] Task finished: org.jackhuang.hmcl.ui.versions.VersionSettingsPage.initJavaSubtitle(VersionSettingsPage.java:745)
+[16:18:13] [org.jackhuang.hmcl.task.AsyncTaskExecutor.lambda$executeNormalTask$29/FINER] Task finished: org.jackhuang.hmcl.util.Lang.lambda$wrap$2(Lang.java:270)
+[16:18:13] [org.jackhuang.hmcl.task.AsyncTaskExecutor.lambda$executeNormalTask$29/FINER] Task finished: org.jackhuang.hmcl.task.Task$UniCompose$$Lambda$882/1753759631@25da5e19
+[16:18:13] [org.jackhuang.hmcl.task.AsyncTaskExecutor.lambda$executeNormalTask$29/FINER] Task finished: org.jackhuang.hmcl.ui.versions.VersionSettingsPage.initJavaSubtitle(VersionSettingsPage.java:745)
+[16:18:13] [org.jackhuang.hmcl.task.AsyncTaskExecutor.lambda$executeNormalTask$29/FINER] Task finished: org.jackhuang.hmcl.ui.versions.VersionSettingsPage.initJavaSubtitle(VersionSettingsPage.java:753)
+[16:18:13] [org.jackhuang.hmcl.task.AsyncTaskExecutor.lambda$executeNormalTask$29/FINER] Task finished: org.jackhuang.hmcl.ui.versions.VersionSettingsPage.initJavaSubtitle(VersionSettingsPage.java:753)
+[16:18:26] [org.jackhuang.hmcl.ui.construct.Navigator.close/INFO] Closed page VersionPage@216e2b29[styleClass=gray-background]
+[16:18:31] [org.jackhuang.hmcl.ui.construct.Navigator.navigate/INFO] Navigate to GameListPage@2c9f6eb6[styleClass=gray-background]
+[16:18:33] [org.jackhuang.hmcl.setting.ConfigHolder.writeToConfig/INFO] Saving config
+[16:18:33] [org.jackhuang.hmcl.setting.ConfigHolder.writeToConfig/INFO] Saving config
+[16:18:33] [org.jackhuang.hmcl.setting.ConfigHolder.writeToConfig/INFO] Saving config
+[16:18:33] [org.jackhuang.hmcl.setting.ConfigHolder.writeToConfig/INFO] Saving config
+[16:18:34] [org.jackhuang.hmcl.ui.construct.Navigator.close/INFO] Closed page GameListPage@2c9f6eb6[styleClass=gray-background]
+[16:18:35] [org.jackhuang.hmcl.ui.construct.Navigator.navigate/INFO] Navigate to GameListPage@2c9f6eb6[styleClass=gray-background]
+[16:18:37] [org.jackhuang.hmcl.ui.construct.Navigator.close/INFO] Closed page GameListPage@2c9f6eb6[styleClass=gray-background]
+[16:18:39] [org.jackhuang.hmcl.task.AsyncTaskExecutor.lambda$executeNormalTask$19/FINE] Executing task: org.jackhuang.hmcl.ui.versions.VersionSettingsPage.initialize(VersionSettingsPage.java:547)
+[16:18:39] [org.jackhuang.hmcl.task.AsyncTaskExecutor.lambda$executeNormalTask$19/FINE] Executing task: org.jackhuang.hmcl.ui.versions.VersionSettingsPage.initialize(VersionSettingsPage.java:547)
+[16:18:39] [org.jackhuang.hmcl.task.AsyncTaskExecutor.lambda$executeNormalTask$29/FINER] Task finished: org.jackhuang.hmcl.ui.versions.VersionSettingsPage.initialize(VersionSettingsPage.java:547)
+[16:18:39] [org.jackhuang.hmcl.task.AsyncTaskExecutor.lambda$executeNormalTask$19/FINE] Executing task: org.jackhuang.hmcl.ui.versions.VersionSettingsPage.initJavaSubtitle(VersionSettingsPage.java:753)
+[16:18:39] [org.jackhuang.hmcl.task.AsyncTaskExecutor.lambda$executeNormalTask$19/FINE] Executing task: org.jackhuang.hmcl.ui.versions.VersionSettingsPage.initJavaSubtitle(VersionSettingsPage.java:745)
+[16:18:39] [org.jackhuang.hmcl.ui.construct.Navigator.navigate/INFO] Navigate to LauncherSettingsPage@4a3ff5[styleClass=gray-background]
+[16:18:39] [org.jackhuang.hmcl.task.AsyncTaskExecutor.lambda$executeNormalTask$29/FINER] Task finished: org.jackhuang.hmcl.ui.versions.VersionSettingsPage.initialize(VersionSettingsPage.java:547)
+[16:18:39] [org.jackhuang.hmcl.task.AsyncTaskExecutor.lambda$executeNormalTask$19/FINE] Executing task: org.jackhuang.hmcl.ui.versions.VersionSettingsPage.initializeSelectedJava(VersionSettingsPage.java:723)
+[16:18:39] [org.jackhuang.hmcl.task.AsyncTaskExecutor.lambda$executeNormalTask$19/FINE] Executing task: org.jackhuang.hmcl.task.Task$UniCompose$$Lambda$882/1753759631@4f84f113
+[16:18:39] [org.jackhuang.hmcl.task.AsyncTaskExecutor.lambda$executeNormalTask$19/FINE] Executing task: org.jackhuang.hmcl.setting.VersionSetting.getJavaVersion(VersionSetting.java:596)
+[16:18:39] [org.jackhuang.hmcl.task.AsyncTaskExecutor.lambda$executeNormalTask$19/FINE] Executing task: org.jackhuang.hmcl.task.Task$UniCompose$$Lambda$882/1753759631@6843a50e
+[16:18:39] [org.jackhuang.hmcl.task.AsyncTaskExecutor.lambda$executeNormalTask$19/FINE] Executing task: org.jackhuang.hmcl.setting.VersionSetting.getJavaVersion(VersionSetting.java:596)
+[16:18:39] [org.jackhuang.hmcl.task.AsyncTaskExecutor.lambda$executeNormalTask$29/FINER] Task finished: org.jackhuang.hmcl.setting.VersionSetting.getJavaVersion(VersionSetting.java:596)
+[16:18:39] [org.jackhuang.hmcl.task.AsyncTaskExecutor.lambda$executeNormalTask$29/FINER] Task finished: org.jackhuang.hmcl.setting.VersionSetting.getJavaVersion(VersionSetting.java:596)
+[16:18:39] [org.jackhuang.hmcl.task.AsyncTaskExecutor.lambda$executeNormalTask$19/FINE] Executing task: org.jackhuang.hmcl.util.Lang.lambda$wrap$2(Lang.java:270)
+[16:18:39] [org.jackhuang.hmcl.task.AsyncTaskExecutor.lambda$executeNormalTask$19/FINE] Executing task: org.jackhuang.hmcl.util.Lang.lambda$wrap$2(Lang.java:270)
+[16:18:39] [org.jackhuang.hmcl.task.AsyncTaskExecutor.lambda$executeNormalTask$29/FINER] Task finished: org.jackhuang.hmcl.util.Lang.lambda$wrap$2(Lang.java:270)
+[16:18:39] [org.jackhuang.hmcl.task.AsyncTaskExecutor.lambda$executeNormalTask$29/FINER] Task finished: org.jackhuang.hmcl.util.Lang.lambda$wrap$2(Lang.java:270)
+[16:18:39] [org.jackhuang.hmcl.task.AsyncTaskExecutor.lambda$executeNormalTask$29/FINER] Task finished: org.jackhuang.hmcl.task.Task$UniCompose$$Lambda$882/1753759631@4f84f113
+[16:18:39] [org.jackhuang.hmcl.task.AsyncTaskExecutor.lambda$executeNormalTask$29/FINER] Task finished: org.jackhuang.hmcl.task.Task$UniCompose$$Lambda$882/1753759631@6843a50e
+[16:18:39] [org.jackhuang.hmcl.task.AsyncTaskExecutor.lambda$executeNormalTask$29/FINER] Task finished: org.jackhuang.hmcl.ui.versions.VersionSettingsPage.initJavaSubtitle(VersionSettingsPage.java:745)
+[16:18:39] [org.jackhuang.hmcl.task.AsyncTaskExecutor.lambda$executeNormalTask$29/FINER] Task finished: org.jackhuang.hmcl.ui.versions.VersionSettingsPage.initializeSelectedJava(VersionSettingsPage.java:723)
+[16:18:39] [org.jackhuang.hmcl.task.AsyncTaskExecutor.lambda$executeNormalTask$29/FINER] Task finished: org.jackhuang.hmcl.ui.versions.VersionSettingsPage.initJavaSubtitle(VersionSettingsPage.java:753)
+[16:18:43] [org.jackhuang.hmcl.ui.main.SettingsPage.lambda$onExportLogs$5/INFO] Exporting logs to C:\Users\alecq\Desktop\hmcl-exported-logs-2021-10-17T16-18-43.log
+[16:18:43] [org.jackhuang.hmcl.ui.construct.StackContainerPane.push/INFO] StackContainerPane@42b34691 [MessageDialogPane@71e216b7]
+[16:18:53] [org.jackhuang.hmcl.ui.construct.StackContainerPane.pop/INFO] StackContainerPane@42b34691 [], removed: true, object: MessageDialogPane@71e216b7
+[16:18:55] [org.jackhuang.hmcl.ui.construct.Navigator.close/INFO] Closed page LauncherSettingsPage@4a3ff5[styleClass=gray-background]
+[16:18:56] [org.jackhuang.hmcl.ui.construct.Navigator.navigate/INFO] Navigate to GameListPage@2c9f6eb6[styleClass=gray-background]
+[16:18:58] [org.jackhuang.hmcl.ui.construct.Navigator.navigate/INFO] Navigate to ProfilePage@2088c149
+[16:18:58] [org.jackhuang.hmcl.ui.construct.Navigator.close/INFO] Closed page ProfilePage@2088c149
+[16:18:59] [org.jackhuang.hmcl.ui.construct.Navigator.close/INFO] Closed page GameListPage@2c9f6eb6[styleClass=gray-background]
+[16:19:02] [org.jackhuang.hmcl.ui.construct.Navigator.navigate/INFO] Navigate to MultiplayerPage@619fbdcb[styleClass=gray-background]
+[16:19:02] [org.jackhuang.hmcl.task.AsyncTaskExecutor.lambda$executeNormalTask$19/FINE] Executing task: org.jackhuang.hmcl.ui.multiplayer.MultiplayerPage.testNAT(MultiplayerPage.java:133)
+[16:19:02] [org.jackhuang.hmcl.task.AsyncTaskExecutor.lambda$executeNormalTask$19/FINE] Executing task: org.jackhuang.hmcl.ui.multiplayer.MultiplayerPage.testNAT(MultiplayerPage.java:130)
+[16:19:03] [org.jackhuang.hmcl.ui.construct.StackContainerPane.push/INFO] StackContainerPane@28366742 [PromptDialogPane@46b587b7[styleClass=jfx-dialog-layout]]
+[16:19:23] [org.jackhuang.hmcl.task.AsyncTaskExecutor.lambda$executeNormalTask$29/FINER] Task finished: org.jackhuang.hmcl.ui.multiplayer.MultiplayerPage.testNAT(MultiplayerPage.java:130)
+[16:19:23] [org.jackhuang.hmcl.ui.multiplayer.MultiplayerPage.lambda$testNAT$1/INFO] Nat test result 中（端口受限圆锥型）
+[16:19:23] [org.jackhuang.hmcl.task.AsyncTaskExecutor.lambda$executeNormalTask$29/FINER] Task finished: org.jackhuang.hmcl.ui.multiplayer.MultiplayerPage.testNAT(MultiplayerPage.java:133)
+[16:20:56] [org.jackhuang.hmcl.ui.multiplayer.MultiplayerManager.joinSession/INFO] Joining session (token=null,version=1.0.c,sessionName=Alechuhu - 新的世界,peer=mixrw2iX0qOcfdLMZ8Mi70Rr4Mm,mode=P2P,remotePort=58228,localPort=57728)
+[16:20:56] [org.jackhuang.hmcl.ui.multiplayer.MultiplayerManager$CatoSession.<init>/INFO] Started cato with command: C:\Users\alecq\AppData\Roaming\.hmcl\libraries\cato\cato\1.0.c\cato-windows-amd64.exe --token new --id mixrw2iX0qOcfdLMZ8Mi70Rr4Mm --local 0.0.0.0:57728 --remote 127.0.0.1:58228 --mode p2p
+[16:20:56] [org.jackhuang.hmcl.ui.multiplayer.MultiplayerManager$CatoSession.checkCatoLog/INFO] Cato: [33mWARN[0m[0000] Error parsing config file: open ./config.yaml: The system cannot find the file specified. 
+[16:20:56] [org.jackhuang.hmcl.ui.multiplayer.MultiplayerManager$CatoSession.checkCatoLog/INFO] Cato: [36mINFO[0m[0000] Launching Client...                          
+[16:20:56] [org.jackhuang.hmcl.ui.multiplayer.MultiplayerManager$CatoSession.checkCatoLog/INFO] Cato: time="2021-10-17T16:20:56+08:00" level=info msg="Registering P2P Manager..." prefix=P2PM
+[16:20:56] [org.jackhuang.hmcl.ui.multiplayer.MultiplayerManager$CatoSession.checkCatoLog/INFO] Cato: time="2021-10-17T16:20:56+08:00" level=info msg="Server started: :3478" prefix=UDPS-P2P
+[16:20:56] [org.jackhuang.hmcl.ui.multiplayer.MultiplayerManager$CatoSession.checkCatoLog/INFO] Cato: time="2021-10-17T16:20:56+08:00" level=info msg="P2P Manager Registered" prefix=P2PM
+[16:20:56] [org.jackhuang.hmcl.ui.multiplayer.MultiplayerManager$CatoSession.checkCatoLog/INFO] Cato: time="2021-10-17T16:20:56+08:00" level=warning msg="Connecting to main net try(1)..." prefix=UDPC-CLI
+[16:20:56] [org.jackhuang.hmcl.ui.multiplayer.MultiplayerManager$CatoSession.checkCatoLog/INFO] Cato: time="2021-10-17T16:20:56+08:00" level=info msg="Connection established with main net" prefix=UDPC-CLI
+[16:20:56] [org.jackhuang.hmcl.ui.multiplayer.MultiplayerManager$CatoSession.checkCatoLog/INFO] Cato: time="2021-10-17T16:20:56+08:00" level=info msg="Initialization complete: id(mixsklT9ERF5S1iafSbgSAollLg) with addr(:0)" prefix=UDPC-CLI
+[16:20:56] [org.jackhuang.hmcl.ui.multiplayer.MultiplayerManager$CatoSession.checkCatoLog/INFO] Cato: time="2021-10-17T16:20:56+08:00" level=info msg="Connected to main net" prefix=UDPC-CLI
+[16:20:56] [org.jackhuang.hmcl.ui.multiplayer.MultiplayerManager$CatoSession.checkCatoLog/INFO] Cato: [36mINFO[0m[0000] Establishing pipes...                        
+[16:20:56] [org.jackhuang.hmcl.ui.multiplayer.MultiplayerClient.run/INFO] Connecting to 127.0.0.1:57728
+[16:20:57] [org.jackhuang.hmcl.ui.multiplayer.MultiplayerManager$CatoSession.checkCatoLog/INFO] Cato: time="2021-10-17T16:20:57+08:00" level=info msg="Connecting to peer id(mixrw2iX0qOcfdLMZ8Mi70Rr4Mm) using mode(p2p)..." prefix=P2PM
+[16:20:57] [org.jackhuang.hmcl.ui.multiplayer.MultiplayerManager$CatoSession.checkCatoLog/INFO] Cato: [31mERRO[0m[0001] client not found: mixrw2iX0qOcfdLMZ8Mi70Rr4Mm 
+[16:20:58] [org.jackhuang.hmcl.ui.multiplayer.MultiplayerClient.run/INFO] Failed to connect to 127.0.0.1:57728, tried 0 time(s)
+[16:20:58] [org.jackhuang.hmcl.ui.multiplayer.MultiplayerManager$CatoSession.checkCatoLog/INFO] Cato: time="2021-10-17T16:20:58+08:00" level=info msg="Connecting to peer id(mixrw2iX0qOcfdLMZ8Mi70Rr4Mm) using mode(p2p)..." prefix=P2PM
+[16:20:59] [org.jackhuang.hmcl.ui.multiplayer.MultiplayerManager$CatoSession.checkCatoLog/INFO] Cato: [31mERRO[0m[0002] client not found: mixrw2iX0qOcfdLMZ8Mi70Rr4Mm 
+[16:21:00] [org.jackhuang.hmcl.ui.multiplayer.MultiplayerManager$CatoSession.checkCatoLog/INFO] Cato: time="2021-10-17T16:21:00+08:00" level=info msg="Connecting to peer id(mixrw2iX0qOcfdLMZ8Mi70Rr4Mm) using mode(p2p)..." prefix=P2PM
+[16:21:00] [org.jackhuang.hmcl.ui.multiplayer.MultiplayerManager$CatoSession.checkCatoLog/INFO] Cato: [31mERRO[0m[0003] client not found: mixrw2iX0qOcfdLMZ8Mi70Rr4Mm 
+[16:21:01] [org.jackhuang.hmcl.ui.multiplayer.MultiplayerManager$CatoSession.checkCatoLog/INFO] Cato: time="2021-10-17T16:21:01+08:00" level=info msg="Connecting to peer id(mixrw2iX0qOcfdLMZ8Mi70Rr4Mm) using mode(p2p)..." prefix=P2PM
+[16:21:01] [org.jackhuang.hmcl.ui.multiplayer.MultiplayerManager$CatoSession.checkCatoLog/INFO] Cato: [31mERRO[0m[0004] client not found: mixrw2iX0qOcfdLMZ8Mi70Rr4Mm 
+[16:21:02] [org.jackhuang.hmcl.ui.multiplayer.MultiplayerManager$CatoSession.checkCatoLog/INFO] Cato: time="2021-10-17T16:21:02+08:00" level=info msg="Connecting to peer id(mixrw2iX0qOcfdLMZ8Mi70Rr4Mm) using mode(p2p)..." prefix=P2PM
+[16:21:02] [org.jackhuang.hmcl.ui.multiplayer.MultiplayerManager$CatoSession.checkCatoLog/INFO] Cato: [31mERRO[0m[0005] client not found: mixrw2iX0qOcfdLMZ8Mi70Rr4Mm 
+[16:21:02] [org.jackhuang.hmcl.ui.multiplayer.MultiplayerClient.run/INFO] Failed to connect to 127.0.0.1:57728, tried 1 time(s)
+[16:21:03] [org.jackhuang.hmcl.ui.multiplayer.MultiplayerManager$CatoSession.checkCatoLog/INFO] Cato: time="2021-10-17T16:21:03+08:00" level=info msg="Connecting to peer id(mixrw2iX0qOcfdLMZ8Mi70Rr4Mm) using mode(p2p)..." prefix=P2PM
+[16:21:03] [org.jackhuang.hmcl.ui.multiplayer.MultiplayerManager$CatoSession.checkCatoLog/INFO] Cato: [31mERRO[0m[0006] client not found: mixrw2iX0qOcfdLMZ8Mi70Rr4Mm 
+[16:21:04] [org.jackhuang.hmcl.ui.multiplayer.MultiplayerManager$CatoSession.checkCatoLog/INFO] Cato: time="2021-10-17T16:21:04+08:00" level=info msg="Connecting to peer id(mixrw2iX0qOcfdLMZ8Mi70Rr4Mm) using mode(p2p)..." prefix=P2PM
+[16:21:04] [org.jackhuang.hmcl.ui.multiplayer.MultiplayerManager$CatoSession.checkCatoLog/INFO] Cato: [31mERRO[0m[0007] client not found: mixrw2iX0qOcfdLMZ8Mi70Rr4Mm 
+[16:21:05] [org.jackhuang.hmcl.ui.multiplayer.MultiplayerManager$CatoSession.checkCatoLog/INFO] Cato: time="2021-10-17T16:21:05+08:00" level=info msg="Connecting to peer id(mixrw2iX0qOcfdLMZ8Mi70Rr4Mm) using mode(p2p)..." prefix=P2PM
+[16:21:05] [org.jackhuang.hmcl.ui.multiplayer.MultiplayerManager$CatoSession.checkCatoLog/INFO] Cato: [31mERRO[0m[0008] client not found: mixrw2iX0qOcfdLMZ8Mi70Rr4Mm 
+[16:21:06] [org.jackhuang.hmcl.ui.multiplayer.MultiplayerManager$CatoSession.checkCatoLog/INFO] Cato: time="2021-10-17T16:21:06+08:00" level=info msg="Connecting to peer id(mixrw2iX0qOcfdLMZ8Mi70Rr4Mm) using mode(p2p)..." prefix=P2PM
+[16:21:06] [org.jackhuang.hmcl.ui.multiplayer.MultiplayerManager$CatoSession.checkCatoLog/INFO] Cato: [31mERRO[0m[0009] client not found: mixrw2iX0qOcfdLMZ8Mi70Rr4Mm 
+[16:21:07] [org.jackhuang.hmcl.ui.multiplayer.MultiplayerClient.run/INFO] Failed to connect to 127.0.0.1:57728, tried 2 time(s)
+[16:21:07] [org.jackhuang.hmcl.ui.multiplayer.MultiplayerManager$CatoSession.checkCatoLog/INFO] Cato: time="2021-10-17T16:21:07+08:00" level=info msg="Connecting to peer id(mixrw2iX0qOcfdLMZ8Mi70Rr4Mm) using mode(p2p)..." prefix=P2PM
+[16:21:07] [org.jackhuang.hmcl.ui.multiplayer.MultiplayerManager$CatoSession.checkCatoLog/INFO] Cato: [31mERRO[0m[0011] client not found: mixrw2iX0qOcfdLMZ8Mi70Rr4Mm 
+[16:21:08] [org.jackhuang.hmcl.ui.multiplayer.MultiplayerManager$CatoSession.checkCatoLog/INFO] Cato: time="2021-10-17T16:21:08+08:00" level=info msg="Connecting to peer id(mixrw2iX0qOcfdLMZ8Mi70Rr4Mm) using mode(p2p)..." prefix=P2PM
+[16:21:08] [org.jackhuang.hmcl.ui.multiplayer.MultiplayerManager$CatoSession.checkCatoLog/INFO] Cato: [31mERRO[0m[0012] client not found: mixrw2iX0qOcfdLMZ8Mi70Rr4Mm 
+[16:21:09] [org.jackhuang.hmcl.ui.multiplayer.MultiplayerManager$CatoSession.checkCatoLog/INFO] Cato: time="2021-10-17T16:21:09+08:00" level=info msg="Connecting to peer id(mixrw2iX0qOcfdLMZ8Mi70Rr4Mm) using mode(p2p)..." prefix=P2PM
+[16:21:10] [org.jackhuang.hmcl.ui.multiplayer.MultiplayerManager$CatoSession.checkCatoLog/INFO] Cato: [31mERRO[0m[0013] client not found: mixrw2iX0qOcfdLMZ8Mi70Rr4Mm 
+[16:21:11] [org.jackhuang.hmcl.ui.multiplayer.MultiplayerManager$CatoSession.checkCatoLog/INFO] Cato: time="2021-10-17T16:21:11+08:00" level=info msg="Connecting to peer id(mixrw2iX0qOcfdLMZ8Mi70Rr4Mm) using mode(p2p)..." prefix=P2PM
+[16:21:11] [org.jackhuang.hmcl.ui.multiplayer.MultiplayerClient.run/INFO] Failed to connect to 127.0.0.1:57728, tried 3 time(s)
+[16:21:11] [org.jackhuang.hmcl.ui.multiplayer.MultiplayerManager$CatoSession.checkCatoLog/INFO] Cato: [31mERRO[0m[0014] client not found: mixrw2iX0qOcfdLMZ8Mi70Rr4Mm 
+[16:21:12] [org.jackhuang.hmcl.ui.multiplayer.MultiplayerManager$CatoSession.checkCatoLog/INFO] Cato: time="2021-10-17T16:21:12+08:00" level=info msg="Connecting to peer id(mixrw2iX0qOcfdLMZ8Mi70Rr4Mm) using mode(p2p)..." prefix=P2PM
+[16:21:12] [org.jackhuang.hmcl.ui.multiplayer.MultiplayerManager$CatoSession.checkCatoLog/INFO] Cato: [31mERRO[0m[0015] client not found: mixrw2iX0qOcfdLMZ8Mi70Rr4Mm 
+[16:21:13] [org.jackhuang.hmcl.ui.multiplayer.MultiplayerManager$CatoSession.checkCatoLog/INFO] Cato: time="2021-10-17T16:21:13+08:00" level=info msg="Connecting to peer id(mixrw2iX0qOcfdLMZ8Mi70Rr4Mm) using mode(p2p)..." prefix=P2PM
+[16:21:13] [org.jackhuang.hmcl.ui.multiplayer.MultiplayerManager$CatoSession.checkCatoLog/INFO] Cato: [31mERRO[0m[0016] client not found: mixrw2iX0qOcfdLMZ8Mi70Rr4Mm 
+[16:21:14] [org.jackhuang.hmcl.ui.multiplayer.MultiplayerManager$CatoSession.checkCatoLog/INFO] Cato: time="2021-10-17T16:21:14+08:00" level=info msg="Connecting to peer id(mixrw2iX0qOcfdLMZ8Mi70Rr4Mm) using mode(p2p)..." prefix=P2PM
+[16:21:14] [org.jackhuang.hmcl.ui.multiplayer.MultiplayerManager$CatoSession.checkCatoLog/INFO] Cato: [31mERRO[0m[0017] client not found: mixrw2iX0qOcfdLMZ8Mi70Rr4Mm 
+[16:21:15] [org.jackhuang.hmcl.ui.multiplayer.MultiplayerClient.run/INFO] Failed to connect to 127.0.0.1:57728, tried 4 time(s)
+[16:21:15] [org.jackhuang.hmcl.ui.multiplayer.MultiplayerManager$CatoSession.checkCatoLog/INFO] Cato: time="2021-10-17T16:21:15+08:00" level=info msg="Connecting to peer id(mixrw2iX0qOcfdLMZ8Mi70Rr4Mm) using mode(p2p)..." prefix=P2PM
+[16:21:15] [org.jackhuang.hmcl.ui.multiplayer.MultiplayerManager$CatoSession.checkCatoLog/INFO] Cato: [31mERRO[0m[0018] client not found: mixrw2iX0qOcfdLMZ8Mi70Rr4Mm 
+[16:21:16] [org.jackhuang.hmcl.ui.multiplayer.MultiplayerManager$CatoSession.checkCatoLog/INFO] Cato: time="2021-10-17T16:21:16+08:00" level=info msg="Connecting to peer id(mixrw2iX0qOcfdLMZ8Mi70Rr4Mm) using mode(p2p)..." prefix=P2PM
+[16:21:16] [org.jackhuang.hmcl.ui.multiplayer.MultiplayerManager$CatoSession.checkCatoLog/INFO] Cato: [31mERRO[0m[0019] client not found: mixrw2iX0qOcfdLMZ8Mi70Rr4Mm 
+[16:21:17] [org.jackhuang.hmcl.ui.multiplayer.MultiplayerClient.run/INFO] Lost connection to 127.0.0.1:57728
+[16:21:17] [org.jackhuang.hmcl.ui.multiplayer.MultiplayerPage.lambda$null$19/INFO] Failed to establish connection with server
+[16:21:17] [org.jackhuang.hmcl.ui.multiplayer.MultiplayerManager$CatoSession.checkCatoLog/INFO] Cato: time="2021-10-17T16:21:17+08:00" level=info msg="Connecting to peer id(mixrw2iX0qOcfdLMZ8Mi70Rr4Mm) using mode(p2p)..." prefix=P2PM
+[16:21:17] [org.jackhuang.hmcl.ui.multiplayer.MultiplayerManager$CatoSession.checkCatoLog/INFO] Cato: [31mERRO[0m[0020] client not found: mixrw2iX0qOcfdLMZ8Mi70Rr4Mm 
+[16:21:18] [org.jackhuang.hmcl.ui.multiplayer.MultiplayerManager$CatoSession.checkCatoLog/INFO] Cato: time="2021-10-17T16:21:18+08:00" level=info msg="Connecting to peer id(mixrw2iX0qOcfdLMZ8Mi70Rr4Mm) using mode(p2p)..." prefix=P2PM
+[16:21:18] [org.jackhuang.hmcl.ui.multiplayer.MultiplayerManager$CatoSession.checkCatoLog/INFO] Cato: [31mERRO[0m[0021] client not found: mixrw2iX0qOcfdLMZ8Mi70Rr4Mm 
+[16:21:19] [org.jackhuang.hmcl.ui.multiplayer.MultiplayerManager$CatoSession.checkCatoLog/INFO] Cato: time="2021-10-17T16:21:19+08:00" level=info msg="Connecting to peer id(mixrw2iX0qOcfdLMZ8Mi70Rr4Mm) using mode(p2p)..." prefix=P2PM
+[16:21:19] [org.jackhuang.hmcl.ui.multiplayer.MultiplayerManager$CatoSession.checkCatoLog/INFO] Cato: [31mERRO[0m[0022] client not found: mixrw2iX0qOcfdLMZ8Mi70Rr4Mm 
+[16:21:20] [org.jackhuang.hmcl.ui.multiplayer.MultiplayerManager$CatoSession.checkCatoLog/INFO] Cato: time="2021-10-17T16:21:20+08:00" level=info msg="Connecting to peer id(mixrw2iX0qOcfdLMZ8Mi70Rr4Mm) using mode(p2p)..." prefix=P2PM
+[16:21:20] [org.jackhuang.hmcl.ui.multiplayer.MultiplayerManager$CatoSession.checkCatoLog/INFO] Cato: [31mERRO[0m[0023] client not found: mixrw2iX0qOcfdLMZ8Mi70Rr4Mm 
+[16:21:21] [org.jackhuang.hmcl.ui.construct.StackContainerPane.pop/INFO] StackContainerPane@28366742 [], removed: true, object: PromptDialogPane@46b587b7[styleClass=jfx-dialog-layout]
+[16:21:21] [org.jackhuang.hmcl.ui.multiplayer.MultiplayerManager$CatoSession.checkCatoLog/INFO] Cato: time="2021-10-17T16:21:21+08:00" level=info msg="Connecting to peer id(mixrw2iX0qOcfdLMZ8Mi70Rr4Mm) using mode(p2p)..." prefix=P2PM
+[16:21:21] [org.jackhuang.hmcl.ui.multiplayer.MultiplayerManager$CatoSession.checkCatoLog/INFO] Cato: [31mERRO[0m[0025] client not found: mixrw2iX0qOcfdLMZ8Mi70Rr4Mm 
+[16:21:22] [org.jackhuang.hmcl.ui.construct.Navigator.close/INFO] Closed page MultiplayerPage@619fbdcb[styleClass=gray-background]
+[16:21:22] [org.jackhuang.hmcl.ui.multiplayer.MultiplayerManager$CatoSession.checkCatoLog/INFO] Cato: time="2021-10-17T16:21:22+08:00" level=info msg="Connecting to peer id(mixrw2iX0qOcfdLMZ8Mi70Rr4Mm) using mode(p2p)..." prefix=P2PM
+[16:21:22] [org.jackhuang.hmcl.ui.multiplayer.MultiplayerManager$CatoSession.checkCatoLog/INFO] Cato: [31mERRO[0m[0026] client not found: mixrw2iX0qOcfdLMZ8Mi70Rr4Mm 
+[16:21:23] [org.jackhuang.hmcl.ui.construct.Navigator.navigate/INFO] Navigate to LauncherSettingsPage@4a3ff5[styleClass=gray-background]
+[16:21:23] [org.jackhuang.hmcl.ui.multiplayer.MultiplayerManager$CatoSession.checkCatoLog/INFO] Cato: time="2021-10-17T16:21:23+08:00" level=info msg="Connecting to peer id(mixrw2iX0qOcfdLMZ8Mi70Rr4Mm) using mode(p2p)..." prefix=P2PM
+[16:21:24] [org.jackhuang.hmcl.ui.multiplayer.MultiplayerManager$CatoSession.checkCatoLog/INFO] Cato: [31mERRO[0m[0027] client not found: mixrw2iX0qOcfdLMZ8Mi70Rr4Mm 
+[16:21:24] [org.jackhuang.hmcl.ui.main.SettingsPage.lambda$onExportLogs$5/INFO] Exporting logs to C:\Users\alecq\Desktop\hmcl-exported-logs-2021-10-17T16-21-24.log
