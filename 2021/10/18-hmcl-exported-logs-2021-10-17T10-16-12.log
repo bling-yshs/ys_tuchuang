@@ -1,0 +1,396 @@
+[09:26:55] [org.jackhuang.hmcl.Launcher.main/INFO] *** HMCL 3.4.208 ***
+[09:26:55] [org.jackhuang.hmcl.Launcher.main/INFO] Operating System: Windows 10 10.0
+[09:26:55] [org.jackhuang.hmcl.Launcher.main/INFO] Java Version: 1.8.0_301, Oracle Corporation
+[09:26:55] [org.jackhuang.hmcl.Launcher.main/INFO] Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+[09:26:55] [org.jackhuang.hmcl.Launcher.main/INFO] Java Home: C:\Program Files\Java\jre1.8.0_301
+[09:26:55] [org.jackhuang.hmcl.Launcher.main/INFO] Current Directory: C:\Users\秋\Desktop\minecraft
+[09:26:55] [org.jackhuang.hmcl.Launcher.main/INFO] HMCL Directory: C:\Users\秋\AppData\Roaming\.hmcl
+[09:26:55] [org.jackhuang.hmcl.Launcher.main/INFO] Memory: 1808MB
+[09:26:55] [org.jackhuang.hmcl.Launcher.lambda$main$2/INFO] Metaspace: 10MB
+[09:26:56] [org.jackhuang.hmcl.setting.ConfigHolder.init/INFO] Config location: C:\Users\秋\Desktop\minecraft\hmcl.json
+[09:26:57] [org.jackhuang.hmcl.task.AsyncTaskExecutor.lambda$executeNormalTask$19/FINE] Executing task: org.jackhuang.hmcl.game.GameRepository.refreshVersionsAsync(GameRepository.java:88)
+[09:26:57] [org.jackhuang.hmcl.task.AsyncTaskExecutor.lambda$executeNormalTask$19/FINE] Executing task: org.jackhuang.hmcl.game.GameRepository.refreshVersionsAsync(GameRepository.java:88)
+[09:26:57] [org.jackhuang.hmcl.event.EventBus.fireEvent/INFO] RefreshingVersionsEvent [source=HMCLGameRepository [versions=null, baseDirectory=.minecraft]] gets fired
+[09:26:57] [org.jackhuang.hmcl.event.EventBus.fireEvent/INFO] RefreshingVersionsEvent [source=HMCLGameRepository [versions=null, baseDirectory=.minecraft]] gets fired
+[09:26:57] [org.jackhuang.hmcl.ui.Controllers.initialize/INFO] Start initializing application
+[09:26:57] [org.jackhuang.hmcl.event.EventBus.fireEvent/INFO] LoadedOneVersionEvent [source=HMCLGameRepository [versions=null, baseDirectory=.minecraft], version=Version [id=1.16.5]] gets fired
+[09:26:57] [org.jackhuang.hmcl.event.EventBus.fireEvent/INFO] LoadedOneVersionEvent [source=HMCLGameRepository [versions=null, baseDirectory=.minecraft], version=Version [id=21w41a]] gets fired
+[09:26:57] [org.jackhuang.hmcl.event.EventBus.fireEvent/INFO] LoadedOneVersionEvent [source=HMCLGameRepository [versions=null, baseDirectory=.minecraft], version=Version [id=1.17.1]] gets fired
+[09:26:57] [org.jackhuang.hmcl.event.EventBus.fireEvent/INFO] RefreshedVersionsEvent [source=HMCLGameRepository [versions=[1.16.5, 1.17.1, 21w41a], baseDirectory=.minecraft]] gets fired
+[09:26:57] [org.jackhuang.hmcl.task.AsyncTaskExecutor.lambda$executeNormalTask$29/FINER] Task finished: org.jackhuang.hmcl.game.GameRepository.refreshVersionsAsync(GameRepository.java:88)
+[09:26:57] [org.jackhuang.hmcl.event.EventBus.fireEvent/INFO] LoadedOneVersionEvent [source=HMCLGameRepository [versions=[1.16.5, 1.17.1, 21w41a], baseDirectory=.minecraft], version=Version [id=1.16.5]] gets fired
+[09:26:57] [org.jackhuang.hmcl.event.EventBus.fireEvent/INFO] LoadedOneVersionEvent [source=HMCLGameRepository [versions=[1.16.5, 1.17.1, 21w41a], baseDirectory=.minecraft], version=Version [id=21w41a]] gets fired
+[09:26:57] [org.jackhuang.hmcl.event.EventBus.fireEvent/INFO] LoadedOneVersionEvent [source=HMCLGameRepository [versions=[1.16.5, 1.17.1, 21w41a], baseDirectory=.minecraft], version=Version [id=1.17.1]] gets fired
+[09:26:57] [org.jackhuang.hmcl.event.EventBus.fireEvent/INFO] RefreshedVersionsEvent [source=HMCLGameRepository [versions=[1.16.5, 1.17.1, 21w41a], baseDirectory=.minecraft]] gets fired
+[09:26:57] [org.jackhuang.hmcl.task.AsyncTaskExecutor.lambda$executeNormalTask$29/FINER] Task finished: org.jackhuang.hmcl.game.GameRepository.refreshVersionsAsync(GameRepository.java:88)
+[09:26:58] [org.jackhuang.hmcl.task.AsyncTaskExecutor.lambda$executeNormalTask$19/FINE] Executing task: org.jackhuang.hmcl.ui.Controllers.initialize(Controllers.java:175)
+[09:26:58] [org.jackhuang.hmcl.task.AsyncTaskExecutor.lambda$executeNormalTask$19/FINE] Executing task: org.jackhuang.hmcl.ui.Controllers.initialize(Controllers.java:175)
+[09:26:59] [org.jackhuang.hmcl.Main.fixLetsEncrypt/INFO] Added Lets Encrypt root certificates as additional trust
+[09:27:01] [org.jackhuang.hmcl.upgrade.IntegrityChecker.isSelfVerified/INFO] Successfully verified current JAR
+[09:27:02] [org.jackhuang.hmcl.upgrade.UpdateChecker.lambda$null$2/INFO] Latest version (DEVELOPMENT) is [3.4.208 from https://ci.huangyuhui.net/job/HMCL/208/artifact/HMCL/build/libs/HMCL-3.4.208.pack.xz]
+[09:27:10] [org.jackhuang.hmcl.util.platform.JavaVersion.lambda$lookupJavas$2/FINER] Looking for Java:C:\Program Files (x86)\Common Files\Oracle\Java\javapath_target_8169984\java.exe
+[09:27:10] [org.jackhuang.hmcl.util.platform.JavaVersion.lambda$lookupJavas$2/FINE] Found Java (1.8.0_301) C:\Program Files (x86)\Common Files\Oracle\Java\javapath_target_8169984\java.exe
+[09:27:10] [org.jackhuang.hmcl.util.platform.JavaVersion.initialize/FINE] Finished Java installation lookup, found 2
+[09:27:10] [org.jackhuang.hmcl.task.AsyncTaskExecutor.lambda$executeNormalTask$29/FINER] Task finished: org.jackhuang.hmcl.ui.Controllers.initialize(Controllers.java:175)
+[09:27:11] [org.jackhuang.hmcl.task.AsyncTaskExecutor.lambda$executeNormalTask$29/FINER] Task finished: org.jackhuang.hmcl.ui.Controllers.initialize(Controllers.java:175)
+[09:27:12] [org.jackhuang.hmcl.task.Task.run/FINE] Executing task: org.jackhuang.hmcl.auth.offline.Skin.load(Skin.java:123)
+[09:27:57] [org.jackhuang.hmcl.task.AsyncTaskExecutor.lambda$executeNormalTask$19/FINE] Executing task: org.jackhuang.hmcl.ui.multiplayer.MultiplayerPage.testNAT(MultiplayerPage.java:133)
+[09:27:57] [org.jackhuang.hmcl.task.AsyncTaskExecutor.lambda$executeNormalTask$19/FINE] Executing task: org.jackhuang.hmcl.ui.multiplayer.MultiplayerPage.testNAT(MultiplayerPage.java:130)
+[09:27:57] [org.jackhuang.hmcl.ui.construct.Navigator.navigate/INFO] Navigate to MultiplayerPage@395a8ebf[styleClass=gray-background]
+[09:27:57] [org.jackhuang.hmcl.ui.construct.StackContainerPane.push/INFO] StackContainerPane@11e78817 [TaskExecutorDialogPane@1345d423]
+[09:27:57] [org.jackhuang.hmcl.task.AsyncTaskExecutor.lambda$executeNormalTask$19/FINE] Executing task: org.jackhuang.hmcl.ui.multiplayer.MultiplayerPage.downloadCatoIfNecessary(MultiplayerPage.java:180)
+[09:27:57] [org.jackhuang.hmcl.task.AsyncTaskExecutor.lambda$executeNormalTask$19/FINE] Executing task: org.jackhuang.hmcl.ui.multiplayer.MultiplayerManager.downloadCato(MultiplayerManager.java:72)
+[09:27:57] [org.jackhuang.hmcl.task.AsyncTaskExecutor.lambda$executeNormalTask$19/FINE] Executing task: cato-windows-amd64.exe
+[09:27:57] [org.jackhuang.hmcl.task.FileDownloadTask.beforeDownload/FINER] Downloading https://files.huangyuhui.net/maven/cato/cato/1.0.c/cato-windows-amd64.exe to C:\Users\秋\AppData\Roaming\.hmcl\libraries\cato\cato\1.0.c\cato-windows-amd64.exe
+[09:28:01] [org.jackhuang.hmcl.task.AsyncTaskExecutor.lambda$executeNormalTask$29/FINER] Task finished: cato-windows-amd64.exe
+[09:28:01] [org.jackhuang.hmcl.task.AsyncTaskExecutor.lambda$executeNormalTask$29/FINER] Task finished: org.jackhuang.hmcl.ui.multiplayer.MultiplayerManager.downloadCato(MultiplayerManager.java:72)
+[09:28:01] [org.jackhuang.hmcl.task.AsyncTaskExecutor.lambda$executeNormalTask$29/FINER] Task finished: org.jackhuang.hmcl.ui.multiplayer.MultiplayerPage.downloadCatoIfNecessary(MultiplayerPage.java:180)
+[09:28:01] [org.jackhuang.hmcl.ui.construct.StackContainerPane.pop/INFO] StackContainerPane@11e78817 [], removed: true, object: TaskExecutorDialogPane@1345d423
+[09:28:03] [org.jackhuang.hmcl.ui.construct.Navigator.close/INFO] Closed page MultiplayerPage@395a8ebf[styleClass=gray-background]
+[09:28:04] [org.jackhuang.hmcl.game.LauncherHelper.launch/INFO] Launching game version: 1.17.1
+[09:28:04] [org.jackhuang.hmcl.ui.construct.StackContainerPane.push/INFO] StackContainerPane@137574bf [TaskExecutorDialogPane@215835f2]
+[09:28:04] [org.jackhuang.hmcl.task.AsyncTaskExecutor.lambda$executeNormalTask$19/FINE] Executing task: org.jackhuang.hmcl.task.Task$StagesHintTask
+[09:28:04] [org.jackhuang.hmcl.task.AsyncTaskExecutor.lambda$executeNormalTask$19/FINE] Executing task: org.jackhuang.hmcl.game.LauncherHelper$$Lambda$802/1289017735@77b0b05f
+[09:28:04] [org.jackhuang.hmcl.task.AsyncTaskExecutor.lambda$executeNormalTask$19/FINE] Executing task: org.jackhuang.hmcl.task.Task$UniCompose$$Lambda$799/580099974@10cbe5d5
+[09:28:04] [org.jackhuang.hmcl.task.AsyncTaskExecutor.lambda$executeNormalTask$19/FINE] Executing task: org.jackhuang.hmcl.task.Task$UniCompose$$Lambda$799/580099974@eaa5d26
+[09:28:04] [org.jackhuang.hmcl.task.AsyncTaskExecutor.lambda$executeNormalTask$19/FINE] Executing task: org.jackhuang.hmcl.task.Task$StageTask
+[09:28:04] [org.jackhuang.hmcl.task.AsyncTaskExecutor.lambda$executeNormalTask$19/FINE] Executing task: org.jackhuang.hmcl.task.Task$UniCompose$$Lambda$799/580099974@6b1e486a
+[09:28:04] [org.jackhuang.hmcl.task.AsyncTaskExecutor.lambda$executeNormalTask$19/FINE] Executing task: org.jackhuang.hmcl.game.LauncherHelper$$Lambda$795/864395049@4611773a
+[09:28:04] [org.jackhuang.hmcl.task.AsyncTaskExecutor.lambda$executeNormalTask$19/FINE] Executing task: org.jackhuang.hmcl.task.Task$StageTask
+[09:28:04] [org.jackhuang.hmcl.task.AsyncTaskExecutor.lambda$executeNormalTask$19/FINE] Executing task: org.jackhuang.hmcl.game.LauncherHelper$$Lambda$794/177860239@3da86571
+[09:28:04] [org.jackhuang.hmcl.task.AsyncTaskExecutor.lambda$executeNormalTask$19/FINE] Executing task: org.jackhuang.hmcl.game.LauncherHelper$$Lambda$793/1965463588@32e719dd
+[09:28:04] [org.jackhuang.hmcl.task.AsyncTaskExecutor.lambda$executeNormalTask$19/FINE] Executing task: org.jackhuang.hmcl.game.LauncherHelper$$Lambda$792/1673232313@b278421
+[09:28:04] [org.jackhuang.hmcl.task.AsyncTaskExecutor.lambda$executeNormalTask$19/FINE] Executing task: org.jackhuang.hmcl.game.LauncherHelper.checkGameState(LauncherHelper.java:312)
+[09:28:04] [org.jackhuang.hmcl.task.AsyncTaskExecutor.lambda$executeNormalTask$19/FINE] Executing task: org.jackhuang.hmcl.task.Task$UniCompose$$Lambda$799/580099974@585f7559
+[09:28:04] [org.jackhuang.hmcl.task.AsyncTaskExecutor.lambda$executeNormalTask$19/FINE] Executing task: org.jackhuang.hmcl.setting.VersionSetting.getJavaVersion(VersionSetting.java:596)
+[09:28:04] [org.jackhuang.hmcl.task.AsyncTaskExecutor.lambda$executeNormalTask$29/FINER] Task finished: org.jackhuang.hmcl.setting.VersionSetting.getJavaVersion(VersionSetting.java:596)
+[09:28:04] [org.jackhuang.hmcl.task.AsyncTaskExecutor.lambda$executeNormalTask$19/FINE] Executing task: org.jackhuang.hmcl.util.Lang.lambda$wrap$2(Lang.java:270)
+[09:28:04] [org.jackhuang.hmcl.task.AsyncTaskExecutor.lambda$executeNormalTask$29/FINER] Task finished: org.jackhuang.hmcl.util.Lang.lambda$wrap$2(Lang.java:270)
+[09:28:04] [org.jackhuang.hmcl.task.AsyncTaskExecutor.lambda$executeNormalTask$29/FINER] Task finished: org.jackhuang.hmcl.task.Task$UniCompose$$Lambda$799/580099974@585f7559
+[09:28:04] [org.jackhuang.hmcl.task.AsyncTaskExecutor.lambda$executeNormalTask$29/FINER] Task finished: org.jackhuang.hmcl.game.LauncherHelper.checkGameState(LauncherHelper.java:312)
+[09:28:04] [org.jackhuang.hmcl.task.AsyncTaskExecutor.lambda$executeCompletableFutureTask$10/FINE] Executing task: org.jackhuang.hmcl.task.Task$4
+[09:28:04] [org.jackhuang.hmcl.task.AsyncTaskExecutor.lambda$executeCompletableFutureTask$12/FINER] Task finished: org.jackhuang.hmcl.task.Task$4
+[09:28:04] [org.jackhuang.hmcl.task.AsyncTaskExecutor.lambda$executeNormalTask$29/FINER] Task finished: org.jackhuang.hmcl.game.LauncherHelper$$Lambda$792/1673232313@b278421
+[09:28:04] [org.jackhuang.hmcl.task.AsyncTaskExecutor.lambda$executeCompletableFutureTask$10/FINE] Executing task: org.jackhuang.hmcl.task.Task$4
+[09:28:04] [org.jackhuang.hmcl.task.AsyncTaskExecutor.lambda$executeNormalTask$19/FINE] Executing task: org.jackhuang.hmcl.game.LauncherHelper.lambda$checkGameState$22(LauncherHelper.java:337)
+[09:28:04] [org.jackhuang.hmcl.task.AsyncTaskExecutor.lambda$executeNormalTask$29/FINER] Task finished: org.jackhuang.hmcl.game.LauncherHelper.lambda$checkGameState$22(LauncherHelper.java:337)
+[09:28:04] [org.jackhuang.hmcl.task.AsyncTaskExecutor.lambda$executeCompletableFutureTask$12/FINER] Task finished: org.jackhuang.hmcl.task.Task$4
+[09:28:04] [org.jackhuang.hmcl.task.AsyncTaskExecutor.lambda$executeNormalTask$29/FINER] Task finished: org.jackhuang.hmcl.game.LauncherHelper$$Lambda$793/1965463588@32e719dd
+[09:28:04] [org.jackhuang.hmcl.task.AsyncTaskExecutor.lambda$executeCompletableFutureTask$10/FINE] Executing task: org.jackhuang.hmcl.task.Task$4
+[09:28:04] [org.jackhuang.hmcl.task.AsyncTaskExecutor.lambda$executeCompletableFutureTask$12/FINER] Task finished: org.jackhuang.hmcl.task.Task$4
+[09:28:04] [org.jackhuang.hmcl.task.AsyncTaskExecutor.lambda$executeNormalTask$29/FINER] Task finished: org.jackhuang.hmcl.game.LauncherHelper$$Lambda$794/177860239@3da86571
+[09:28:04] [org.jackhuang.hmcl.task.AsyncTaskExecutor.lambda$executeNormalTask$29/FINER] Task finished: org.jackhuang.hmcl.task.Task$StageTask
+[09:28:04] [org.jackhuang.hmcl.task.AsyncTaskExecutor.lambda$executeNormalTask$19/FINE] Executing task: org.jackhuang.hmcl.download.DefaultDependencyManager.checkPatchCompletionAsync(DefaultDependencyManager.java:98)
+[09:28:04] [org.jackhuang.hmcl.task.AsyncTaskExecutor.lambda$executeNormalTask$29/FINER] Task finished: org.jackhuang.hmcl.download.DefaultDependencyManager.checkPatchCompletionAsync(DefaultDependencyManager.java:98)
+[09:28:04] [org.jackhuang.hmcl.task.AsyncTaskExecutor.lambda$executeNormalTask$29/FINER] Task finished: org.jackhuang.hmcl.game.LauncherHelper$$Lambda$795/864395049@4611773a
+[09:28:04] [org.jackhuang.hmcl.task.AsyncTaskExecutor.lambda$executeNormalTask$19/FINE] Executing task: org.jackhuang.hmcl.game.LauncherHelper.launch0(LauncherHelper.java:137)
+[09:28:04] [org.jackhuang.hmcl.task.AsyncTaskExecutor.lambda$executeNormalTask$19/FINE] Executing task: org.jackhuang.hmcl.game.LauncherHelper.launch0(LauncherHelper.java:142)
+[09:28:04] [org.jackhuang.hmcl.task.AsyncTaskExecutor.lambda$executeNormalTask$19/FINE] Executing task: org.jackhuang.hmcl.download.DefaultDependencyManager.checkGameCompletionAsync(DefaultDependencyManager.java:80)
+[09:28:04] [org.jackhuang.hmcl.task.AsyncTaskExecutor.lambda$executeNormalTask$19/FINE] Executing task: org.jackhuang.hmcl.download.game.GameAssetDownloadTask
+[09:28:04] [org.jackhuang.hmcl.task.AsyncTaskExecutor.lambda$executeNormalTask$19/FINE] Executing task: org.jackhuang.hmcl.download.game.GameLibrariesTask
+[09:28:04] [org.jackhuang.hmcl.task.AsyncTaskExecutor.lambda$executeNormalTask$29/FINER] Task finished: org.jackhuang.hmcl.game.LauncherHelper.launch0(LauncherHelper.java:142)
+[09:28:04] [org.jackhuang.hmcl.task.AsyncTaskExecutor.lambda$executeNormalTask$19/FINE] Executing task: org.jackhuang.hmcl.download.game.GameAssetIndexDownloadTask
+[09:28:04] [org.jackhuang.hmcl.task.AsyncTaskExecutor.lambda$executeNormalTask$29/FINER] Task finished: org.jackhuang.hmcl.download.DefaultDependencyManager.checkGameCompletionAsync(DefaultDependencyManager.java:80)
+[09:28:04] [org.jackhuang.hmcl.task.AsyncTaskExecutor.lambda$executeNormalTask$29/FINER] Task finished: org.jackhuang.hmcl.download.game.GameAssetIndexDownloadTask
+[09:28:05] [org.jackhuang.hmcl.task.AsyncTaskExecutor.lambda$executeNormalTask$29/FINER] Task finished: org.jackhuang.hmcl.download.game.GameLibrariesTask
+[09:28:08] [org.jackhuang.hmcl.task.AsyncTaskExecutor.lambda$executeNormalTask$29/FINER] Task finished: org.jackhuang.hmcl.ui.multiplayer.MultiplayerPage.testNAT(MultiplayerPage.java:130)
+[09:28:08] [org.jackhuang.hmcl.ui.multiplayer.MultiplayerPage.lambda$testNAT$1/INFO] Nat test result 差（对称型）
+[09:28:08] [org.jackhuang.hmcl.task.AsyncTaskExecutor.lambda$executeNormalTask$29/FINER] Task finished: org.jackhuang.hmcl.ui.multiplayer.MultiplayerPage.testNAT(MultiplayerPage.java:133)
+[09:28:11] [org.jackhuang.hmcl.task.AsyncTaskExecutor.lambda$executeNormalTask$29/FINER] Task finished: 检查资源文件完整性
+[09:28:11] [org.jackhuang.hmcl.task.AsyncTaskExecutor.lambda$executeNormalTask$29/FINER] Task finished: org.jackhuang.hmcl.game.LauncherHelper.launch0(LauncherHelper.java:137)
+[09:28:11] [org.jackhuang.hmcl.task.AsyncTaskExecutor.lambda$executeNormalTask$29/FINER] Task finished: org.jackhuang.hmcl.task.Task$UniCompose$$Lambda$799/580099974@6b1e486a
+[09:28:11] [org.jackhuang.hmcl.task.AsyncTaskExecutor.lambda$executeNormalTask$29/FINER] Task finished: org.jackhuang.hmcl.task.Task$StageTask
+[09:28:11] [org.jackhuang.hmcl.task.AsyncTaskExecutor.lambda$executeNormalTask$19/FINE] Executing task: org.jackhuang.hmcl.download.game.GameVerificationFixTask
+[09:28:11] [org.jackhuang.hmcl.task.AsyncTaskExecutor.lambda$executeNormalTask$29/FINER] Task finished: org.jackhuang.hmcl.download.game.GameVerificationFixTask
+[09:28:11] [org.jackhuang.hmcl.task.AsyncTaskExecutor.lambda$executeNormalTask$29/FINER] Task finished: org.jackhuang.hmcl.task.Task$UniCompose$$Lambda$799/580099974@eaa5d26
+[09:28:11] [org.jackhuang.hmcl.task.AsyncTaskExecutor.lambda$executeNormalTask$19/FINE] Executing task: org.jackhuang.hmcl.task.Task$StageTask
+[09:28:11] [org.jackhuang.hmcl.task.AsyncTaskExecutor.lambda$executeNormalTask$19/FINE] Executing task: org.jackhuang.hmcl.game.LauncherHelper.launch0(LauncherHelper.java:164)
+[09:28:11] [org.jackhuang.hmcl.task.Task.run/FINE] Executing task: org.jackhuang.hmcl.auth.offline.Skin.load(Skin.java:123)
+[09:28:11] [org.jackhuang.hmcl.task.AsyncTaskExecutor.lambda$executeNormalTask$29/FINER] Task finished: org.jackhuang.hmcl.game.LauncherHelper.launch0(LauncherHelper.java:164)
+[09:28:11] [org.jackhuang.hmcl.task.AsyncTaskExecutor.lambda$executeNormalTask$29/FINER] Task finished: org.jackhuang.hmcl.task.Task$StageTask
+[09:28:11] [org.jackhuang.hmcl.task.AsyncTaskExecutor.lambda$executeNormalTask$29/FINER] Task finished: org.jackhuang.hmcl.task.Task$UniCompose$$Lambda$799/580099974@10cbe5d5
+[09:28:11] [org.jackhuang.hmcl.task.AsyncTaskExecutor.lambda$executeNormalTask$19/FINE] Executing task: org.jackhuang.hmcl.task.Task$StageTask
+[09:28:11] [org.jackhuang.hmcl.task.AsyncTaskExecutor.lambda$executeNormalTask$19/FINE] Executing task: org.jackhuang.hmcl.game.LauncherHelper.lambda$launch0$15(LauncherHelper.java:211)
+[09:28:11] [org.jackhuang.hmcl.task.AsyncTaskExecutor.lambda$executeNormalTask$19/FINE] Executing task: org.jackhuang.hmcl.game.LauncherHelper.lambda$launch0$15(LauncherHelper.java:195)
+[09:28:11] [org.jackhuang.hmcl.task.AsyncTaskExecutor.lambda$executeNormalTask$19/FINE] Executing task: org.jackhuang.hmcl.game.LauncherHelper$$Lambda$833/796551438@3217f85e
+[09:28:11] [org.jackhuang.hmcl.task.AsyncTaskExecutor.lambda$executeNormalTask$19/FINE] Executing task: org.jackhuang.hmcl.game.LauncherHelper.lambda$launch0$15(LauncherHelper.java:175)
+[09:28:11] [org.jackhuang.hmcl.task.AsyncTaskExecutor.lambda$executeNormalTask$29/FINER] Task finished: org.jackhuang.hmcl.game.LauncherHelper.lambda$launch0$15(LauncherHelper.java:175)
+[09:28:11] [org.jackhuang.hmcl.task.AsyncTaskExecutor.lambda$executeNormalTask$19/FINE] Executing task: org.jackhuang.hmcl.game.LauncherHelper.lambda$null$10(LauncherHelper.java:188)
+[09:28:13] [org.jackhuang.hmcl.game.LauncherHelper$HMCLProcessListener.setProcess/INFO] Launched process: C:\Users\秋\AppData\Roaming\.minecraft\cache\java\java-runtime-alpha\windows-x64\java-runtime-alpha\bin\java.exe -Dminecraft.client.jar=.minecraft\versions\1.17.1\1.17.1.jar -XX:+UnlockExperimentalVMOptions -XX:+UseG1GC -XX:G1NewSizePercent=20 -XX:G1ReservePercent=20 -XX:MaxGCPauseMillis=50 -XX:G1HeapRegionSize=16m -XX:-UseAdaptiveSizePolicy -XX:-OmitStackTraceInFastThrow -XX:-DontCompileHugeMethods -Xmn128m -Xmx3679m --illegal-access=permit -Dfml.ignoreInvalidMinecraftCertificates=true -Dfml.ignorePatchDiscrepancies=true -XX:HeapDumpPath=MojangTricksIntelDriversForPerformance_javaw.exe_minecraft.exe.heapdump -Djava.library.path=C:\Users\秋\Desktop\minecraft\.minecraft\versions\1.17.1\natives -Dminecraft.launcher.brand=HMCL -Dminecraft.launcher.version=3.4.208 -cp C:\Users\秋\Desktop\minecraft\.minecraft\libraries\com\mojang\blocklist\1.0.5\blocklist-1.0.5.jar;C:\Users\秋\Desktop\minecraft\.minecraft\libraries\com\mojang\patchy\2.1.6\patchy-2.1.6.jar;C:\Users\秋\Desktop\minecraft\.minecraft\libraries\com\github\oshi\oshi-core\5.7.5\oshi-core-5.7.5.jar;C:\Users\秋\Desktop\minecraft\.minecraft\libraries\net\java\dev\jna\jna\5.8.0\jna-5.8.0.jar;C:\Users\秋\Desktop\minecraft\.minecraft\libraries\net\java\dev\jna\jna-platform\5.8.0\jna-platform-5.8.0.jar;C:\Users\秋\Desktop\minecraft\.minecraft\libraries\org\slf4j\slf4j-api\1.8.0-beta4\slf4j-api-1.8.0-beta4.jar;C:\Users\秋\Desktop\minecraft\.minecraft\libraries\org\apache\logging\log4j\log4j-slf4j18-impl\2.14.1\log4j-slf4j18-impl-2.14.1.jar;C:\Users\秋\Desktop\minecraft\.minecraft\libraries\com\ibm\icu\icu4j\66.1\icu4j-66.1.jar;C:\Users\秋\Desktop\minecraft\.minecraft\libraries\com\mojang\javabridge\1.1.23\javabridge-1.1.23.jar;C:\Users\秋\Desktop\minecraft\.minecraft\libraries\net\sf\jopt-simple\jopt-simple\5.0.3\jopt-simple-5.0.3.jar;C:\Users\秋\Desktop\minecraft\.minecraft\libraries\io\netty\netty-all\4.1.25.Final\netty-all-4.1.25.Final.jar;C:\Users\秋\Desktop\minecraft\.minecraft\libraries\com\google\guava\guava\21.0\guava-21.0.jar;C:\Users\秋\Desktop\minecraft\.minecraft\libraries\org\apache\commons\commons-lang3\3.5\commons-lang3-3.5.jar;C:\Users\秋\Desktop\minecraft\.minecraft\libraries\commons-io\commons-io\2.5\commons-io-2.5.jar;C:\Users\秋\Desktop\minecraft\.minecraft\libraries\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\Users\秋\Desktop\minecraft\.minecraft\libraries\net\java\jinput\jinput\2.0.5\jinput-2.0.5.jar;C:\Users\秋\Desktop\minecraft\.minecraft\libraries\net\java\jutils\jutils\1.0.0\jutils-1.0.0.jar;C:\Users\秋\Desktop\minecraft\.minecraft\libraries\com\mojang\brigadier\1.0.18\brigadier-1.0.18.jar;C:\Users\秋\Desktop\minecraft\.minecraft\libraries\com\mojang\datafixerupper\4.0.26\datafixerupper-4.0.26.jar;C:\Users\秋\Desktop\minecraft\.minecraft\libraries\com\google\code\gson\gson\2.8.0\gson-2.8.0.jar;C:\Users\秋\Desktop\minecraft\.minecraft\libraries\com\mojang\authlib\2.3.31\authlib-2.3.31.jar;C:\Users\秋\Desktop\minecraft\.minecraft\libraries\org\apache\commons\commons-compress\1.8.1\commons-compress-1.8.1.jar;C:\Users\秋\Desktop\minecraft\.minecraft\libraries\org\apache\httpcomponents\httpclient\4.3.3\httpclient-4.3.3.jar;C:\Users\秋\Desktop\minecraft\.minecraft\libraries\commons-logging\commons-logging\1.1.3\commons-logging-1.1.3.jar;C:\Users\秋\Desktop\minecraft\.minecraft\libraries\org\apache\httpcomponents\httpcore\4.3.2\httpcore-4.3.2.jar;C:\Users\秋\Desktop\minecraft\.minecraft\libraries\it\unimi\dsi\fastutil\8.2.1\fastutil-8.2.1.jar;C:\Users\秋\Desktop\minecraft\.minecraft\libraries\org\apache\logging\log4j\log4j-api\2.14.1\log4j-api-2.14.1.jar;C:\Users\秋\Desktop\minecraft\.minecraft\libraries\org\apache\logging\log4j\log4j-core\2.14.1\log4j-core-2.14.1.jar;C:\Users\秋\Desktop\minecraft\.minecraft\libraries\org\lwjgl\lwjgl\3.2.2\lwjgl-3.2.2.jar;C:\Users\秋\Desktop\minecraft\.minecraft\libraries\org\lwjgl\lwjgl-jemalloc\3.2.2\lwjgl-jemalloc-3.2.2.jar;C:\Users\秋\Desktop\minecraft\.minecraft\libraries\org\lwjgl\lwjgl-openal\3.2.2\lwjgl-openal-3.2.2.jar;C:\Users\秋\Desktop\minecraft\.minecraft\libraries\org\lwjgl\lwjgl-opengl\3.2.2\lwjgl-opengl-3.2.2.jar;C:\Users\秋\Desktop\minecraft\.minecraft\libraries\org\lwjgl\lwjgl-glfw\3.2.2\lwjgl-glfw-3.2.2.jar;C:\Users\秋\Desktop\minecraft\.minecraft\libraries\org\lwjgl\lwjgl-stb\3.2.2\lwjgl-stb-3.2.2.jar;C:\Users\秋\Desktop\minecraft\.minecraft\libraries\org\lwjgl\lwjgl-tinyfd\3.2.2\lwjgl-tinyfd-3.2.2.jar;C:\Users\秋\Desktop\minecraft\.minecraft\libraries\com\mojang\text2speech\1.11.3\text2speech-1.11.3.jar;C:\Users\秋\Desktop\minecraft\.minecraft\versions\1.17.1\1.17.1.jar -javaagent:C:\Users\秋\AppData\Roaming\.hmcl\authlib-injector.jar=http://localhost:59852 -Dauthlibinjector.side=client net.minecraft.client.main.Main --username sheep --version 1.17.1 --gameDir C:\Users\秋\Desktop\minecraft\.minecraft --assetsDir C:\Users\秋\Desktop\minecraft\.minecraft\assets --assetIndex 1.17 --uuid 6e3a6883f18e34abb4cae3bc7edc9fd7 --accessToken <access token> --userType mojang --versionType "HMCL 3.4.208" --width 854 --height 480
+[09:28:13] [org.jackhuang.hmcl.task.AsyncTaskExecutor.lambda$executeNormalTask$29/FINER] Task finished: org.jackhuang.hmcl.game.LauncherHelper.lambda$null$10(LauncherHelper.java:188)
+[09:28:13] [org.jackhuang.hmcl.task.AsyncTaskExecutor.lambda$executeNormalTask$29/FINER] Task finished: org.jackhuang.hmcl.game.LauncherHelper$$Lambda$833/796551438@3217f85e
+[09:28:13] [org.jackhuang.hmcl.task.AsyncTaskExecutor.lambda$executeNormalTask$29/FINER] Task finished: org.jackhuang.hmcl.game.LauncherHelper.lambda$launch0$15(LauncherHelper.java:195)
+[09:28:16] [org.jackhuang.hmcl.util.io.HttpServer.serve/INFO] [0] GET --> /
+[09:28:16] [org.jackhuang.hmcl.util.io.HttpServer.ok/INFO] Response {
+  "signaturePublickey": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEApLX9vKDu47K53Auevz5HhRrKCx0zGGDN\nkoldFbJOpWh3LaiZ063gT5SsXlhFzQc+FRXaEnjxRs6LkTx0ivO+B90ZCldqQCOkOJaVfVDqkf61\n/Ec5Ygpj9VL4d9EURAxCpfef3zqavpdPp6aBHtaY9I3G3HK/QDZEiwXzv73HgjxOyGuKgXos5fBf\nmmZ8x2Pld/hK092q1S9Vb6FCWMw9izIyK9z1vJfaawcWA0uBcxtzIgz3F4xxZiAwkTQVwGUYw5zY\nCVDdeFBsC6usY90i4NFxZ5fauDcttunbuupeptLXUZKttS1T7iWFM4lMKa4AmtHvF/Eaptj1ukra\nEfD8ww0iULXB2zivdbpddbkEkRklTzkwy+FBYI+xKu6254qfMh1WhoDCd5++VChRMwSMNkJs2PFF\nIUlVLKvru2USSkztFWgjcP6NsXaOJD7UT7KafXp/hpkkQuiMzCGDnxF7LW0def5CtM6FRo0WoIbw\nJMMtuioUoB6jqUWfE3b+Z13HdbtY4X7lZcdiRZ5+84cer6RBeVmTp18ttnTu43gz2CKWGjRZJO8K\nvw0vPbCOEhleqAYLz2Kr57aZPaRFPQoqA3WPWqzjePkHIPmwAm/HymmH2Ses+LGSZ8r0W5L0NzxP\nxP0GMxwWa4Gq170OpBFusKYac3r8qy1k9FfMmmo/uOUCAwEAAQ\u003d\u003d\n-----END PUBLIC KEY-----\n",
+  "skinDomains": [
+    "127.0.0.1",
+    "localhost"
+  ],
+  "meta": {
+    "serverName": "HMCL",
+    "implementationName": "HMCL",
+    "implementationVersion": "1.0",
+    "feature.non_email_login": true
+  }
+}
+[09:28:16] [org.jackhuang.hmcl.util.io.HttpServer.serve/INFO] [0] OK <--
+[09:28:34] [org.jackhuang.hmcl.task.AsyncTaskExecutor.lambda$executeNormalTask$29/FINER] Task finished: org.jackhuang.hmcl.game.LauncherHelper.lambda$launch0$15(LauncherHelper.java:211)
+[09:28:34] [org.jackhuang.hmcl.task.AsyncTaskExecutor.lambda$executeNormalTask$29/FINER] Task finished: org.jackhuang.hmcl.task.Task$StageTask
+[09:28:34] [org.jackhuang.hmcl.task.AsyncTaskExecutor.lambda$executeNormalTask$29/FINER] Task finished: org.jackhuang.hmcl.game.LauncherHelper$$Lambda$802/1289017735@77b0b05f
+[09:28:34] [org.jackhuang.hmcl.task.AsyncTaskExecutor.lambda$executeNormalTask$29/FINER] Task finished: org.jackhuang.hmcl.task.Task$StagesHintTask
+[09:28:34] [org.jackhuang.hmcl.ui.construct.StackContainerPane.pop/INFO] StackContainerPane@137574bf [], removed: true, object: TaskExecutorDialogPane@215835f2
+[09:30:03] [org.jackhuang.hmcl.util.io.HttpServer.serve/INFO] [1] GET --> /sessionserver/session/minecraft/profile/6e3a6883f18e34abb4cae3bc7edc9fd7
+[09:30:03] [org.jackhuang.hmcl.util.io.HttpServer.ok/INFO] Response {
+  "id": "6e3a6883f18e34abb4cae3bc7edc9fd7",
+  "name": "sheep",
+  "properties": [
+    {
+      "name": "textures",
+      "value": "ewogICJ0aW1lc3RhbXAiOiAxNjM0NDM0MjAzNzkwLAogICJwcm9maWxlSWQiOiAiNmUzYTY4ODNmMThlMzRhYmI0Y2FlM2JjN2VkYzlmZDciLAogICJwcm9maWxlTmFtZSI6ICJzaGVlcCIsCiAgInRleHR1cmVzIjogewogICAgIlNLSU4iOiB7CiAgICAgICJ1cmwiOiAiaHR0cDovL2xvY2FsaG9zdDo1OTg1Mi90ZXh0dXJlcy9jZTE1NGNkYTQwYTU1OGEzYWMwMDc0Y2UzNDgxYWI2MGNmNjRlYmUxYmUzZWY5NTg5ZmEyNGE4ZDMwZmZkYjQ1IgogICAgfSwKICAgICJDQVBFIjogewogICAgICAidXJsIjogImh0dHA6Ly9sb2NhbGhvc3Q6NTk4NTIvdGV4dHVyZXMvY2UxNTRjZGE0MGE1NThhM2FjMDA3NGNlMzQ4MWFiNjBjZjY0ZWJlMWJlM2VmOTU4OWZhMjRhOGQzMGZmZGI0NSIKICAgIH0KICB9Cn0\u003d",
+      "signature": "ZsQMiUd93y+fhZFOuIFOQN3XxZgMuiMu+uYn4yZeTMwxKEFr6Lc8q67k0wiEZXZQL8x3/PsPGyIXckeAO35c7b3R0Z1QQuxp/F4t9hKtJyg8/k8fhLNz4IZ5AwdKyCNVW2SnGt2+JHRKVK6+Z8Mfsv/8/XPJI2PJSXjHTTL2c6LhdLRhbpzvLlzNZVgFs7U9gju9NiC3sFB4t2SKqFlH8pr/qWK+8XPDyyicgj6NsW6Pa66gPYjlGb75cjUs66wJnpQXi/fvNuwyMUPnKaq0kWIgnZI89+/e36QQz0mCQvLhMPqUOUtQN5GfTzeYD9ugHhJwJMRssZkz+A8N4I1WeLqfZzGKLEzz2zo9R1tHdt8y8bQlv5N4yJHJBnCWJkn3hxkxsS+uumJTQnOBMly90vgYsxVyznzX1PnY2nov9YsJOuzlPrk/oW+So6NyFnuJwzB3xlu4ccWmoOf4eHZ/Op4CoRH24m9maNQUDPzZddlfX8IuKQBmxI5XMfrDI/kfIYfjogpChiQL2i1IoYlwRk/DPWIH1ym6K+zy4isQzgX5+VTuNCEtbNpob0xh/R7VcYeZvumFMn9mEwudiDH1SyCDCAdoGK/C59DxAPqmuA6FY4o0xg5+cTEsRolWHix0qfM0fvtFs/Ynzj0WSspAIJFIemuT+N/ddGyTfRhf6EU\u003d"
+    }
+  ]
+}
+[09:30:03] [org.jackhuang.hmcl.util.io.HttpServer.serve/INFO] [1] OK <--
+[09:30:26] [org.jackhuang.hmcl.ui.construct.Navigator.navigate/INFO] Navigate to MultiplayerPage@395a8ebf[styleClass=gray-background]
+[09:30:26] [org.jackhuang.hmcl.ui.construct.StackContainerPane.push/INFO] StackContainerPane@54427404 [TaskExecutorDialogPane@36b3c619]
+[09:30:27] [org.jackhuang.hmcl.task.AsyncTaskExecutor.lambda$executeNormalTask$19/FINE] Executing task: org.jackhuang.hmcl.ui.multiplayer.MultiplayerPage.downloadCatoIfNecessary(MultiplayerPage.java:180)
+[09:30:27] [org.jackhuang.hmcl.task.AsyncTaskExecutor.lambda$executeNormalTask$19/FINE] Executing task: org.jackhuang.hmcl.ui.multiplayer.MultiplayerManager.downloadCato(MultiplayerManager.java:72)
+[09:30:27] [org.jackhuang.hmcl.task.AsyncTaskExecutor.lambda$executeNormalTask$19/FINE] Executing task: cato-windows-amd64.exe
+[09:30:27] [org.jackhuang.hmcl.task.FileDownloadTask.beforeDownload/FINER] Downloading https://files.huangyuhui.net/maven/cato/cato/1.0.c/cato-windows-amd64.exe to C:\Users\秋\AppData\Roaming\.hmcl\libraries\cato\cato\1.0.c\cato-windows-amd64.exe
+[09:30:28] [org.jackhuang.hmcl.task.FetchTask.execute/WARNING] Failed to download https://files.huangyuhui.net/maven/cato/cato/1.0.c/cato-windows-amd64.exe, repeat times: 1
+java.nio.file.AccessDeniedException: C:\Users\秋\AppData\Roaming\.hmcl\libraries\cato\cato\1.0.c\cato-windows-amd64.exe
+	at sun.nio.fs.WindowsException.translateToIOException(Unknown Source)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(Unknown Source)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(Unknown Source)
+	at sun.nio.fs.WindowsFileSystemProvider.implDelete(Unknown Source)
+	at sun.nio.fs.AbstractFileSystemProvider.deleteIfExists(Unknown Source)
+	at java.nio.file.Files.deleteIfExists(Unknown Source)
+	at org.jackhuang.hmcl.task.FileDownloadTask$1.close(FileDownloadTask.java:228)
+	at org.jackhuang.hmcl.task.FetchTask.execute(FetchTask.java:158)
+	at org.jackhuang.hmcl.task.AsyncTaskExecutor.lambda$null$22(AsyncTaskExecutor.java:245)
+	at org.jackhuang.hmcl.util.Lang.lambda$wrap$2(Lang.java:270)
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[09:30:29] [org.jackhuang.hmcl.task.FileDownloadTask.beforeDownload/FINER] Downloading https://files.huangyuhui.net/maven/cato/cato/1.0.c/cato-windows-amd64.exe to C:\Users\秋\AppData\Roaming\.hmcl\libraries\cato\cato\1.0.c\cato-windows-amd64.exe
+[09:30:31] [org.jackhuang.hmcl.task.FetchTask.execute/WARNING] Failed to download https://files.huangyuhui.net/maven/cato/cato/1.0.c/cato-windows-amd64.exe, repeat times: 2
+java.nio.file.AccessDeniedException: C:\Users\秋\AppData\Roaming\.hmcl\libraries\cato\cato\1.0.c\cato-windows-amd64.exe
+	at sun.nio.fs.WindowsException.translateToIOException(Unknown Source)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(Unknown Source)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(Unknown Source)
+	at sun.nio.fs.WindowsFileSystemProvider.implDelete(Unknown Source)
+	at sun.nio.fs.AbstractFileSystemProvider.deleteIfExists(Unknown Source)
+	at java.nio.file.Files.deleteIfExists(Unknown Source)
+	at org.jackhuang.hmcl.task.FileDownloadTask$1.close(FileDownloadTask.java:228)
+	at org.jackhuang.hmcl.task.FetchTask.execute(FetchTask.java:158)
+	at org.jackhuang.hmcl.task.AsyncTaskExecutor.lambda$null$22(AsyncTaskExecutor.java:245)
+	at org.jackhuang.hmcl.util.Lang.lambda$wrap$2(Lang.java:270)
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[09:30:31] [org.jackhuang.hmcl.task.FileDownloadTask.beforeDownload/FINER] Downloading https://files.huangyuhui.net/maven/cato/cato/1.0.c/cato-windows-amd64.exe to C:\Users\秋\AppData\Roaming\.hmcl\libraries\cato\cato\1.0.c\cato-windows-amd64.exe
+[09:30:32] [org.jackhuang.hmcl.task.FetchTask.execute/WARNING] Failed to download https://files.huangyuhui.net/maven/cato/cato/1.0.c/cato-windows-amd64.exe, repeat times: 3
+java.nio.file.AccessDeniedException: C:\Users\秋\AppData\Roaming\.hmcl\libraries\cato\cato\1.0.c\cato-windows-amd64.exe
+	at sun.nio.fs.WindowsException.translateToIOException(Unknown Source)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(Unknown Source)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(Unknown Source)
+	at sun.nio.fs.WindowsFileSystemProvider.implDelete(Unknown Source)
+	at sun.nio.fs.AbstractFileSystemProvider.deleteIfExists(Unknown Source)
+	at java.nio.file.Files.deleteIfExists(Unknown Source)
+	at org.jackhuang.hmcl.task.FileDownloadTask$1.close(FileDownloadTask.java:228)
+	at org.jackhuang.hmcl.task.FetchTask.execute(FetchTask.java:158)
+	at org.jackhuang.hmcl.task.AsyncTaskExecutor.lambda$null$22(AsyncTaskExecutor.java:245)
+	at org.jackhuang.hmcl.util.Lang.lambda$wrap$2(Lang.java:270)
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[09:30:32] [org.jackhuang.hmcl.task.AsyncTaskExecutor.lambda$executeNormalTask$31/FINE] Task failed: cato-windows-amd64.exe
+org.jackhuang.hmcl.task.DownloadException: Unable to download https://files.huangyuhui.net/maven/cato/cato/1.0.c/cato-windows-amd64.exe, C:\Users\秋\AppData\Roaming\.hmcl\libraries\cato\cato\1.0.c\cato-windows-amd64.exe
+	at org.jackhuang.hmcl.task.FetchTask.execute(FetchTask.java:176)
+	at org.jackhuang.hmcl.task.AsyncTaskExecutor.lambda$null$22(AsyncTaskExecutor.java:245)
+	at org.jackhuang.hmcl.util.Lang.lambda$wrap$2(Lang.java:270)
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.nio.file.AccessDeniedException: C:\Users\秋\AppData\Roaming\.hmcl\libraries\cato\cato\1.0.c\cato-windows-amd64.exe
+	at sun.nio.fs.WindowsException.translateToIOException(Unknown Source)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(Unknown Source)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(Unknown Source)
+	at sun.nio.fs.WindowsFileSystemProvider.implDelete(Unknown Source)
+	at sun.nio.fs.AbstractFileSystemProvider.deleteIfExists(Unknown Source)
+	at java.nio.file.Files.deleteIfExists(Unknown Source)
+	at org.jackhuang.hmcl.task.FileDownloadTask$1.close(FileDownloadTask.java:228)
+	at org.jackhuang.hmcl.task.FetchTask.execute(FetchTask.java:158)
+	... 6 more
+[09:30:32] [org.jackhuang.hmcl.task.AsyncTaskExecutor.lambda$executeNormalTask$31/FINE] Task failed: org.jackhuang.hmcl.ui.multiplayer.MultiplayerManager.downloadCato(MultiplayerManager.java:72)
+org.jackhuang.hmcl.task.DownloadException: Unable to download https://files.huangyuhui.net/maven/cato/cato/1.0.c/cato-windows-amd64.exe, C:\Users\秋\AppData\Roaming\.hmcl\libraries\cato\cato\1.0.c\cato-windows-amd64.exe
+	at org.jackhuang.hmcl.task.FetchTask.execute(FetchTask.java:176)
+	at org.jackhuang.hmcl.task.AsyncTaskExecutor.lambda$null$22(AsyncTaskExecutor.java:245)
+	at org.jackhuang.hmcl.util.Lang.lambda$wrap$2(Lang.java:270)
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.nio.file.AccessDeniedException: C:\Users\秋\AppData\Roaming\.hmcl\libraries\cato\cato\1.0.c\cato-windows-amd64.exe
+	at sun.nio.fs.WindowsException.translateToIOException(Unknown Source)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(Unknown Source)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(Unknown Source)
+	at sun.nio.fs.WindowsFileSystemProvider.implDelete(Unknown Source)
+	at sun.nio.fs.AbstractFileSystemProvider.deleteIfExists(Unknown Source)
+	at java.nio.file.Files.deleteIfExists(Unknown Source)
+	at org.jackhuang.hmcl.task.FileDownloadTask$1.close(FileDownloadTask.java:228)
+	at org.jackhuang.hmcl.task.FetchTask.execute(FetchTask.java:158)
+	... 6 more
+[09:30:32] [org.jackhuang.hmcl.ui.construct.StackContainerPane.push/INFO] StackContainerPane@54427404 [TaskExecutorDialogPane@36b3c619, MessageDialogPane@19b60996]
+[09:30:32] [org.jackhuang.hmcl.ui.construct.Navigator.close/INFO] Closed page MultiplayerPage@395a8ebf[styleClass=gray-background]
+[09:30:32] [org.jackhuang.hmcl.task.AsyncTaskExecutor.lambda$start$1/WARNING] An exception occurred in task execution
+org.jackhuang.hmcl.task.DownloadException: Unable to download https://files.huangyuhui.net/maven/cato/cato/1.0.c/cato-windows-amd64.exe, C:\Users\秋\AppData\Roaming\.hmcl\libraries\cato\cato\1.0.c\cato-windows-amd64.exe
+	at org.jackhuang.hmcl.task.FetchTask.execute(FetchTask.java:176)
+	at org.jackhuang.hmcl.task.AsyncTaskExecutor.lambda$null$22(AsyncTaskExecutor.java:245)
+	at org.jackhuang.hmcl.util.Lang.lambda$wrap$2(Lang.java:270)
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.nio.file.AccessDeniedException: C:\Users\秋\AppData\Roaming\.hmcl\libraries\cato\cato\1.0.c\cato-windows-amd64.exe
+	at sun.nio.fs.WindowsException.translateToIOException(Unknown Source)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(Unknown Source)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(Unknown Source)
+	at sun.nio.fs.WindowsFileSystemProvider.implDelete(Unknown Source)
+	at sun.nio.fs.AbstractFileSystemProvider.deleteIfExists(Unknown Source)
+	at java.nio.file.Files.deleteIfExists(Unknown Source)
+	at org.jackhuang.hmcl.task.FileDownloadTask$1.close(FileDownloadTask.java:228)
+	at org.jackhuang.hmcl.task.FetchTask.execute(FetchTask.java:158)
+	... 6 more
+[09:30:33] [org.jackhuang.hmcl.ui.construct.StackContainerPane.pop/INFO] StackContainerPane@54427404 [MessageDialogPane@19b60996], removed: true, object: TaskExecutorDialogPane@36b3c619
+[09:30:34] [org.jackhuang.hmcl.ui.construct.StackContainerPane.pop/INFO] StackContainerPane@54427404 [], removed: true, object: MessageDialogPane@19b60996
+[09:31:39] [org.jackhuang.hmcl.event.EventBus.fireEvent/INFO] ProcessStoppedEvent [source=org.jackhuang.hmcl.launch.ExitWaiter@68fee45d] gets fired
+[09:37:56] [org.jackhuang.hmcl.ui.construct.Navigator.navigate/INFO] Navigate to MultiplayerPage@395a8ebf[styleClass=gray-background]
+[09:37:56] [org.jackhuang.hmcl.ui.construct.StackContainerPane.push/INFO] StackContainerPane@6831ddd5 [TaskExecutorDialogPane@51bf4469]
+[09:37:56] [org.jackhuang.hmcl.task.AsyncTaskExecutor.lambda$executeNormalTask$19/FINE] Executing task: org.jackhuang.hmcl.ui.multiplayer.MultiplayerPage.downloadCatoIfNecessary(MultiplayerPage.java:180)
+[09:37:56] [org.jackhuang.hmcl.task.AsyncTaskExecutor.lambda$executeNormalTask$19/FINE] Executing task: org.jackhuang.hmcl.ui.multiplayer.MultiplayerManager.downloadCato(MultiplayerManager.java:72)
+[09:37:56] [org.jackhuang.hmcl.task.AsyncTaskExecutor.lambda$executeNormalTask$19/FINE] Executing task: cato-windows-amd64.exe
+[09:37:56] [org.jackhuang.hmcl.task.FileDownloadTask.beforeDownload/FINER] Downloading https://files.huangyuhui.net/maven/cato/cato/1.0.c/cato-windows-amd64.exe to C:\Users\秋\AppData\Roaming\.hmcl\libraries\cato\cato\1.0.c\cato-windows-amd64.exe
+[09:37:58] [org.jackhuang.hmcl.task.FetchTask.execute/WARNING] Failed to download https://files.huangyuhui.net/maven/cato/cato/1.0.c/cato-windows-amd64.exe, repeat times: 1
+java.nio.file.AccessDeniedException: C:\Users\秋\AppData\Roaming\.hmcl\libraries\cato\cato\1.0.c\cato-windows-amd64.exe
+	at sun.nio.fs.WindowsException.translateToIOException(Unknown Source)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(Unknown Source)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(Unknown Source)
+	at sun.nio.fs.WindowsFileSystemProvider.implDelete(Unknown Source)
+	at sun.nio.fs.AbstractFileSystemProvider.deleteIfExists(Unknown Source)
+	at java.nio.file.Files.deleteIfExists(Unknown Source)
+	at org.jackhuang.hmcl.task.FileDownloadTask$1.close(FileDownloadTask.java:228)
+	at org.jackhuang.hmcl.task.FetchTask.execute(FetchTask.java:158)
+	at org.jackhuang.hmcl.task.AsyncTaskExecutor.lambda$null$22(AsyncTaskExecutor.java:245)
+	at org.jackhuang.hmcl.util.Lang.lambda$wrap$2(Lang.java:270)
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[09:37:58] [org.jackhuang.hmcl.task.FileDownloadTask.beforeDownload/FINER] Downloading https://files.huangyuhui.net/maven/cato/cato/1.0.c/cato-windows-amd64.exe to C:\Users\秋\AppData\Roaming\.hmcl\libraries\cato\cato\1.0.c\cato-windows-amd64.exe
+[09:38:00] [org.jackhuang.hmcl.task.FetchTask.execute/WARNING] Failed to download https://files.huangyuhui.net/maven/cato/cato/1.0.c/cato-windows-amd64.exe, repeat times: 2
+java.nio.file.AccessDeniedException: C:\Users\秋\AppData\Roaming\.hmcl\libraries\cato\cato\1.0.c\cato-windows-amd64.exe
+	at sun.nio.fs.WindowsException.translateToIOException(Unknown Source)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(Unknown Source)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(Unknown Source)
+	at sun.nio.fs.WindowsFileSystemProvider.implDelete(Unknown Source)
+	at sun.nio.fs.AbstractFileSystemProvider.deleteIfExists(Unknown Source)
+	at java.nio.file.Files.deleteIfExists(Unknown Source)
+	at org.jackhuang.hmcl.task.FileDownloadTask$1.close(FileDownloadTask.java:228)
+	at org.jackhuang.hmcl.task.FetchTask.execute(FetchTask.java:158)
+	at org.jackhuang.hmcl.task.AsyncTaskExecutor.lambda$null$22(AsyncTaskExecutor.java:245)
+	at org.jackhuang.hmcl.util.Lang.lambda$wrap$2(Lang.java:270)
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[09:38:00] [org.jackhuang.hmcl.task.FileDownloadTask.beforeDownload/FINER] Downloading https://files.huangyuhui.net/maven/cato/cato/1.0.c/cato-windows-amd64.exe to C:\Users\秋\AppData\Roaming\.hmcl\libraries\cato\cato\1.0.c\cato-windows-amd64.exe
+[09:38:02] [org.jackhuang.hmcl.task.FetchTask.execute/WARNING] Failed to download https://files.huangyuhui.net/maven/cato/cato/1.0.c/cato-windows-amd64.exe, repeat times: 3
+java.nio.file.AccessDeniedException: C:\Users\秋\AppData\Roaming\.hmcl\libraries\cato\cato\1.0.c\cato-windows-amd64.exe
+	at sun.nio.fs.WindowsException.translateToIOException(Unknown Source)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(Unknown Source)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(Unknown Source)
+	at sun.nio.fs.WindowsFileSystemProvider.implDelete(Unknown Source)
+	at sun.nio.fs.AbstractFileSystemProvider.deleteIfExists(Unknown Source)
+	at java.nio.file.Files.deleteIfExists(Unknown Source)
+	at org.jackhuang.hmcl.task.FileDownloadTask$1.close(FileDownloadTask.java:228)
+	at org.jackhuang.hmcl.task.FetchTask.execute(FetchTask.java:158)
+	at org.jackhuang.hmcl.task.AsyncTaskExecutor.lambda$null$22(AsyncTaskExecutor.java:245)
+	at org.jackhuang.hmcl.util.Lang.lambda$wrap$2(Lang.java:270)
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[09:38:02] [org.jackhuang.hmcl.task.AsyncTaskExecutor.lambda$executeNormalTask$31/FINE] Task failed: cato-windows-amd64.exe
+org.jackhuang.hmcl.task.DownloadException: Unable to download https://files.huangyuhui.net/maven/cato/cato/1.0.c/cato-windows-amd64.exe, C:\Users\秋\AppData\Roaming\.hmcl\libraries\cato\cato\1.0.c\cato-windows-amd64.exe
+	at org.jackhuang.hmcl.task.FetchTask.execute(FetchTask.java:176)
+	at org.jackhuang.hmcl.task.AsyncTaskExecutor.lambda$null$22(AsyncTaskExecutor.java:245)
+	at org.jackhuang.hmcl.util.Lang.lambda$wrap$2(Lang.java:270)
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.nio.file.AccessDeniedException: C:\Users\秋\AppData\Roaming\.hmcl\libraries\cato\cato\1.0.c\cato-windows-amd64.exe
+	at sun.nio.fs.WindowsException.translateToIOException(Unknown Source)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(Unknown Source)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(Unknown Source)
+	at sun.nio.fs.WindowsFileSystemProvider.implDelete(Unknown Source)
+	at sun.nio.fs.AbstractFileSystemProvider.deleteIfExists(Unknown Source)
+	at java.nio.file.Files.deleteIfExists(Unknown Source)
+	at org.jackhuang.hmcl.task.FileDownloadTask$1.close(FileDownloadTask.java:228)
+	at org.jackhuang.hmcl.task.FetchTask.execute(FetchTask.java:158)
+	... 6 more
+[09:38:02] [org.jackhuang.hmcl.task.AsyncTaskExecutor.lambda$executeNormalTask$31/FINE] Task failed: org.jackhuang.hmcl.ui.multiplayer.MultiplayerManager.downloadCato(MultiplayerManager.java:72)
+org.jackhuang.hmcl.task.DownloadException: Unable to download https://files.huangyuhui.net/maven/cato/cato/1.0.c/cato-windows-amd64.exe, C:\Users\秋\AppData\Roaming\.hmcl\libraries\cato\cato\1.0.c\cato-windows-amd64.exe
+	at org.jackhuang.hmcl.task.FetchTask.execute(FetchTask.java:176)
+	at org.jackhuang.hmcl.task.AsyncTaskExecutor.lambda$null$22(AsyncTaskExecutor.java:245)
+	at org.jackhuang.hmcl.util.Lang.lambda$wrap$2(Lang.java:270)
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.nio.file.AccessDeniedException: C:\Users\秋\AppData\Roaming\.hmcl\libraries\cato\cato\1.0.c\cato-windows-amd64.exe
+	at sun.nio.fs.WindowsException.translateToIOException(Unknown Source)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(Unknown Source)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(Unknown Source)
+	at sun.nio.fs.WindowsFileSystemProvider.implDelete(Unknown Source)
+	at sun.nio.fs.AbstractFileSystemProvider.deleteIfExists(Unknown Source)
+	at java.nio.file.Files.deleteIfExists(Unknown Source)
+	at org.jackhuang.hmcl.task.FileDownloadTask$1.close(FileDownloadTask.java:228)
+	at org.jackhuang.hmcl.task.FetchTask.execute(FetchTask.java:158)
+	... 6 more
+[09:38:02] [org.jackhuang.hmcl.ui.construct.StackContainerPane.push/INFO] StackContainerPane@6831ddd5 [TaskExecutorDialogPane@51bf4469, MessageDialogPane@1b2d0e0b]
+[09:38:02] [org.jackhuang.hmcl.ui.construct.Navigator.close/INFO] Closed page MultiplayerPage@395a8ebf[styleClass=gray-background]
+[09:38:02] [org.jackhuang.hmcl.task.AsyncTaskExecutor.lambda$start$1/WARNING] An exception occurred in task execution
+org.jackhuang.hmcl.task.DownloadException: Unable to download https://files.huangyuhui.net/maven/cato/cato/1.0.c/cato-windows-amd64.exe, C:\Users\秋\AppData\Roaming\.hmcl\libraries\cato\cato\1.0.c\cato-windows-amd64.exe
+	at org.jackhuang.hmcl.task.FetchTask.execute(FetchTask.java:176)
+	at org.jackhuang.hmcl.task.AsyncTaskExecutor.lambda$null$22(AsyncTaskExecutor.java:245)
+	at org.jackhuang.hmcl.util.Lang.lambda$wrap$2(Lang.java:270)
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.nio.file.AccessDeniedException: C:\Users\秋\AppData\Roaming\.hmcl\libraries\cato\cato\1.0.c\cato-windows-amd64.exe
+	at sun.nio.fs.WindowsException.translateToIOException(Unknown Source)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(Unknown Source)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(Unknown Source)
+	at sun.nio.fs.WindowsFileSystemProvider.implDelete(Unknown Source)
+	at sun.nio.fs.AbstractFileSystemProvider.deleteIfExists(Unknown Source)
+	at java.nio.file.Files.deleteIfExists(Unknown Source)
+	at org.jackhuang.hmcl.task.FileDownloadTask$1.close(FileDownloadTask.java:228)
+	at org.jackhuang.hmcl.task.FetchTask.execute(FetchTask.java:158)
+	... 6 more
+[09:38:02] [org.jackhuang.hmcl.ui.construct.StackContainerPane.pop/INFO] StackContainerPane@6831ddd5 [MessageDialogPane@1b2d0e0b], removed: true, object: TaskExecutorDialogPane@51bf4469
+[09:38:40] [org.jackhuang.hmcl.ui.construct.StackContainerPane.pop/INFO] StackContainerPane@6831ddd5 [], removed: true, object: MessageDialogPane@1b2d0e0b
+[10:16:07] [org.jackhuang.hmcl.task.AsyncTaskExecutor.lambda$executeNormalTask$19/FINE] Executing task: org.jackhuang.hmcl.ui.versions.VersionSettingsPage.initialize(VersionSettingsPage.java:547)
+[10:16:07] [org.jackhuang.hmcl.task.AsyncTaskExecutor.lambda$executeNormalTask$19/FINE] Executing task: org.jackhuang.hmcl.ui.versions.VersionSettingsPage.initialize(VersionSettingsPage.java:547)
+[10:16:07] [org.jackhuang.hmcl.task.AsyncTaskExecutor.lambda$executeNormalTask$29/FINER] Task finished: org.jackhuang.hmcl.ui.versions.VersionSettingsPage.initialize(VersionSettingsPage.java:547)
+[10:16:07] [org.jackhuang.hmcl.ui.construct.Navigator.navigate/INFO] Navigate to LauncherSettingsPage@33e47395[styleClass=gray-background]
+[10:16:08] [org.jackhuang.hmcl.task.AsyncTaskExecutor.lambda$executeNormalTask$29/FINER] Task finished: org.jackhuang.hmcl.ui.versions.VersionSettingsPage.initialize(VersionSettingsPage.java:547)
+[10:16:12] [org.jackhuang.hmcl.ui.main.SettingsPage.lambda$onExportLogs$5/INFO] Exporting logs to C:\Users\秋\Desktop\minecraft\hmcl-exported-logs-2021-10-17T10-16-12.log
